@@ -17,27 +17,28 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang University, advised by Prof. Si Liu, with an expected graduation date of June 2027. I am also a research intern at Shanghai AI Laboratory, where I am supervised by Prof. Jiangmiao Pang and Prof. Jifeng Dai. Prior to my Ph.D., I spent two years in the master's program at Beihang University under the supervision of Prof. Lv Sheng, and I received my B.Eng. from Beihang University.
+I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang University, and a member of [CoLab](https://colalab.net/), advised by [Prof. Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=en), with an expected graduation date of June 2027. I am also a research intern at Shanghai AI Laboratory, where I am supervised by [Prof. Jiangmiao Pang](https://oceanpang.github.io/) and [Prof. Jifeng Dai](https://jifengdai.org/). Prior to my Ph.D., I spent two years in the master's program at Beihang University under the supervision of [Prof. Lv Sheng](https://lucassheng.github.io/), and I received my B.Eng. from Beihang University.
 
 My research interests lie in Robotics and Embodied AI, particularly Vision-Language-Action (VLA) models and World-Action-Model (WAM). I also have research interests and experience in multimodal large language models, reinforcement learning, and agent systems for UAVs and robots.
 
-<span class='anchor' id='education'></span>
+I am currently seeking full-time opportunities in robotics and embodied AI, and I welcome inquiries regarding research collaborations and industry positions.
 
 <span class='anchor' id='news'></span>
 
-# <i class="fas fa-bullhorn"></i> News
+# <i class="fas fa-bullhorn" style="color:#ff8a00;"></i> News
 
-- **2026.02**: **RoboInter** was accepted to **ICLR 2026**.
-- **2026.01**: Our team won **Runner-up** in the **RoCo Challenge @ AAAI 2026**.
-- **2025.09**: **InternVLA-M1** was released as a technical report.
-- **2025.03**: Our work on realistic **UAV Vision-Language Navigation** continued to expand toward embodied aerial agents.
-- **2024.06**: I joined **Shanghai AI Laboratory** as a research intern.
-- **2024**: **CooHOI** was accepted to **NeurIPS 2024** as a **Spotlight** paper.
-- **2023**: **VL-SAT** was accepted to **CVPR 2023** as a **Highlight** paper.
+- <span style="color:#ff8a00;"><i class="fas fa-bullhorn"></i></span> **2026.02**: **RoboInter** was accepted to **ICLR 2026**.
+- <span style="color:#ff5f6d;"><i class="fas fa-bullhorn"></i></span> **2026.01**: Our team won **Runner-up** in the **RoCo Challenge @ AAAI 2026**.
+- <span style="color:#f4b400;"><i class="fas fa-bullhorn"></i></span> **2025.09**: **InternVLA-M1** was released as a technical report.
+- <span style="color:#00a67e;"><i class="fas fa-bullhorn"></i></span> **2025.03**: **LLaVA-CMoE** was released as a new preprint on continual mixture-of-experts for large vision-language models.
+- <span style="color:#3b82f6;"><i class="fas fa-bullhorn"></i></span> **2024.10**: Our work on realistic **UAV Vision-Language Navigation** was released on arXiv.
+- <span style="color:#8b5cf6;"><i class="fas fa-bullhorn"></i></span> **2024.06**: I joined **Shanghai AI Laboratory** as a research intern.
+- <span style="color:#ef4444;"><i class="fas fa-bullhorn"></i></span> **2024**: **CooHOI** was accepted to **NeurIPS 2024** as a **Spotlight** paper.
+- <span style="color:#0ea5e9;"><i class="fas fa-bullhorn"></i></span> **2023**: **VL-SAT** was accepted to **CVPR 2023** as a **Highlight** paper.
 
 <span class='anchor' id='education'></span>
 
-# <i class="fas fa-graduation-cap"></i> Education
+# <i class="fas fa-graduation-cap" style="color:#3b82f6;"></i> Education
 
 - *2023.09 - Present*, Ph.D. student, School of Artificial Intelligence, Beihang University
 - *2021.09 - 2023.06*, M.Eng., School of Software, Beihang University
@@ -45,20 +46,9 @@ My research interests lie in Robotics and Embodied AI, particularly Vision-Langu
 
 <span class='anchor' id='publications'></span>
 
-# <i class="fas fa-file-alt"></i> Selected Publications
+# <i class="fas fa-file-alt" style="color:#14b8a6;"></i> Publications
 
-## Technical Reports
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/paper_internvlam1.png' alt="InternVLA-M1 teaser" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**InternVLA-M1: A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy**  
-`InternVLA-M1 Team`  
-*Technical Report*  
-A spatially guided vision-language-action framework toward generalist robot policy learning.
-
-</div>
-</div>
+*Equal-contribution authors are in bold.*
 
 ## 2026
 
@@ -66,20 +56,9 @@ A spatially guided vision-language-action framework toward generalist robot poli
 <div class='paper-box-text' markdown="1">
 
 **RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation**  
-`Ziqin Wang` et al.  
+<strong>Hao Li*</strong>, <strong>Ziqin Wang*</strong>, Zi-han Ding, Shuai Yang, Yilun Chen, Yang Tian, Xiaolin Hu, Tai Wang, Dahua Lin, Feng Zhao, Si Liu, Jiangmiao Pang  
 *ICLR 2026*  
 An intermediate-representation suite for robotic manipulation, including data, tools, benchmarks, and VLA modeling components.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/paper_cope.png' alt="CoPE teaser" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**CoPE: Continual Probe-guided Expansion for Large Vision-Language Models**  
-`Ziqin Wang` et al.  
-*ICML 2026*  
-A parameter-efficient continual learning framework for large vision-language models based on adaptive expert expansion.
 
 </div>
 </div>
@@ -88,19 +67,19 @@ A parameter-efficient continual learning framework for large vision-language mod
 <div class='paper-box-text' markdown="1">
 
 **VaccineRAG: Boosting Multimodal Large Language Models' Immunity to Harmful RAG Samples**  
-`Ziqin Wang` et al.  
+<strong>Qixin Sun*</strong>, <strong>Ziqin Wang*</strong>, <strong>Hengyuan Zhao*</strong>, Yilin Li, Kaiyou Song, Linjiang Huang, Xiaolin Hu, Qingpei Guo, Si Liu  
 *AAAI 2026*  
 A post-training and benchmark framework for improving the robustness of multimodal LLMs against harmful retrieved samples.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PAMI Submission</div><img src='images/paper_robointerpp.png' alt="RoboInter++ teaser" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_robointerpp.png' alt="RoboInter++ teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **RoboInter++: A Holistic Intermediate Representation Suite for Robotic Manipulation and Embodied World Modeling**  
-`Ziqin Wang` et al.  
-*PAMI, under submission*  
+<strong>Ziqin Wang</strong>, Hao Li, Weijun Wang, Junhao Cai, Jia Zeng, Jiangmiao Pang, Yilun Chen, Si Liu  
+*Preprint*  
 An extension of RoboInter toward embodied world modeling with dense intermediate representations and controllable long-horizon generation.
 
 </div>
@@ -108,11 +87,33 @@ An extension of RoboInter toward embodied world modeling with dense intermediate
 
 ## 2025
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/paper_internvlam1.png' alt="InternVLA-M1 teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**InternVLA-M1: A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy**  
+InternVLA-M1 Team  
+*Technical Report, 2025*  
+A spatially guided vision-language-action framework toward generalist robot policy learning.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/paper_cope.png' alt="LLaVA-CMoE teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**LLaVA-CMoE: Towards Continual Mixture of Experts for Large Vision-Language Models**  
+Hengyuan Zhao, <strong>Ziqin Wang</strong>, Qixin Sun, Kaiyou Song, Yilin Li, Xiaolin Hu, Qingpei Guo, Si Liu  
+*Preprint, 2025*  
+A continual mixture-of-experts framework for large vision-language models with strong retention and efficient parameter growth.
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/paper_openuav.png' alt="OpenUAV teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology**  
-`Ziqin Wang` et al.  
+<strong>Xiangyu Wang*</strong>, <strong>Donglin Yang*</strong>, <strong>Ziqin Wang*</strong>, Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu  
 *ICLR 2025*  
 A realistic UAV vision-language navigation platform and benchmark with collaborative large-small model planning.
 
@@ -122,8 +123,8 @@ A realistic UAV vision-language navigation platform and benchmark with collabora
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/paper_airstar.png' alt="AirStar teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Hi AirStar, Guide Me to the Badminton Court.**  
-`Ziqin Wang` et al.  
+**UAVClaw: Hi AirStar, Guide Me to the Badminton Court.**  
+<strong>Ziqin Wang</strong>, Jinyu Chen, Xiangyi Zheng, Qinan Liao, Linjiang Huang, Si Liu  
 *ACM MM 2025*  
 An agentic UAV assistant system that integrates LLM reasoning with low-level skills for embodied aerial interaction.
 
@@ -136,7 +137,7 @@ An agentic UAV assistant system that integrates LLM reasoning with low-level ski
 <div class='paper-box-text' markdown="1">
 
 **CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics**  
-`Ziqin Wang` et al.  
+<strong>Jiawei Gao*</strong>, <strong>Ziqin Wang*</strong>, Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang  
 *NeurIPS 2024, Spotlight*  
 A cooperative embodied control framework that transfers single-agent priors to efficient multi-agent interaction learning.
 
@@ -147,9 +148,20 @@ A cooperative embodied control framework that transfers single-agent priors to e
 <div class='paper-box-text' markdown="1">
 
 **Asynchronous Large Language Model Enhanced Planner for Autonomous Driving**  
-`Ziqin Wang` et al.  
+<strong>Yuan Chen*</strong>, <strong>Zi-han Ding*</strong>, <strong>Ziqin Wang*</strong>, Yan Wang, Lijun Zhang, Si Liu  
 *ECCV 2024*  
 An autonomous driving planner that decouples large-model reasoning from fast low-level planning for better deployment efficiency.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/paper_octavius.png' alt="Octavius teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Octavius: Mitigating Task Interference in MLLMs via LoRA-MoE**  
+<strong>Zeren Chen*</strong>, <strong>Ziqin Wang*</strong>, Zhen Wang, Huayang Liu, Zhenfei Yin, Si Liu, Lu Sheng, Wanli Ouyang, Yu Qiao, Jing Shao  
+*ICLR 2024*  
+An early multimodal mixture-of-experts framework for mitigating interference across 2D and 3D tasks in multimodal large models.
 
 </div>
 </div>
@@ -160,27 +172,16 @@ An autonomous driving planner that decouples large-model reasoning from fast low
 <div class='paper-box-text' markdown="1">
 
 **VL-SAT: Visual-Linguistic Semantics Assisted Training for 3D Semantic Scene Graph Prediction in Point Cloud**  
-`Ziqin Wang` et al.  
+<strong>Ziqin Wang</strong>, Bowen Cheng, Lichen Zhao, Dong Xu, Yang Tang, Lu Sheng  
 *CVPR 2023, Highlight*  
 A visual-linguistic training framework for improving long-tail and zero-shot semantic scene graph prediction in point clouds.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2023</div><img src='images/paper_octavius.png' alt="Octavius teaser" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Octavius: Mitigating Task Interference in MLLMs via MoE**  
-`Ziqin Wang` et al.  
-*ICLR 2023*  
-An early multimodal MoE architecture for mitigating interference across 2D and 3D tasks in multimodal large models.
-
-</div>
-</div>
-
 <span class='anchor' id='experience'></span>
 
-# <i class="fas fa-briefcase"></i> Research and Industry Experience
+# <i class="fas fa-briefcase" style="color:#f59e0b;"></i> Research and Industry Experience
 
 - *2024.06 - 2026.06*, Shanghai AI Laboratory
   - Worked on multi-agent collaboration, robotic manipulation, embodied world models, and VLA systems.
@@ -200,7 +201,7 @@ An early multimodal MoE architecture for mitigating interference across 2D and 3
 
 <span class='anchor' id='projects'></span>
 
-# <i class="fas fa-rocket"></i> Projects
+# <i class="fas fa-rocket" style="color:#ef4444;"></i> Projects
 
 ### AirStar
 
@@ -216,20 +217,23 @@ A collaborative UAV navigation framework developed with the Chinese University o
 
 <span class='anchor' id='honors'></span>
 
-# <i class="fas fa-award"></i> Honors and Awards
+# <i class="fas fa-award" style="color:#eab308;"></i> Honors and Awards
 
-- Ranked 7/180 during undergraduate study
-- Ranked 22/64 during Ph.D. study
-- First-Class Scholarship for Ph.D. Freshmen, Beihang University
-- Second-Class Academic Scholarship, Beihang University
-- CVPR 2023 Highlight
-- NeurIPS 2024 Spotlight
-- Runner-up, AAAI 2026 RoCo Industrial Assembly Challenge
+- AAAI 2026 RoCo Industrial Assembly Challenge 2nd, Team leader
 - Grand Prize, Beihang "Feng Ru Cup" Creativity Track
+- Ranked 7/180 during undergraduate study
+- First-Place Academic Scholarship, Beihang University
+- First-Class Scholarship for Ph.D. Freshmen, Beihang University
 
 <span class='anchor' id='service'></span>
 
-# <i class="fas fa-users"></i> Academic Service
+# <i class="fas fa-users" style="color:#22c55e;"></i> Academic Service
+- Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, ICML, and ACM MM
 
-- Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, and ACM MM
-- Teaching assistant for courses including *Discrete Mathematics*, *Frontiers of Large Models*, and *Image Processing and Computer Vision*
+<span class='anchor' id='links'></span>
+
+# <i class="fas fa-link" style="color:#06b6d4;"></i> Links
+- Email: [wzqin@buaa.edu.cn](mailto:wzqin@buaa.edu.cn)
+- Google Scholar: [BF-xXsIAAAAJ](https://scholar.google.com/citations?hl=en&user=BF-xXsIAAAAJ&view_op=list_works)
+- GitHub: [wz7in](https://github.com/wz7in)
+- WeChat: `wzqinTT`

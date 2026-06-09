@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ziqin Wang"
-description              : "Ph.D. student at Beihang University working on embodied AI, VLA models, multimodal large language models, 2D/3D perception, and reinforcement learning"
+description              : "Ph.D. student at Beihang University working on robotics, embodied AI, VLA models, and world-action models."
 repository               : "wz7in/wz7in.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ziqin Wang"
   avatar           : "images/avatar.png"
-  bio              : "Ph.D. Student at Beihang University"
+  bio              : "Ph.D. Student, CoLab, Beihang University"
   location         : "Beijing"
   employer         :
   pubmed           : 
