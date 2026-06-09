@@ -21,7 +21,7 @@ I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang
 
 My research interests lie in Robotics and Embodied AI, particularly Vision-Language-Action (VLA) models and World-Action-Model (WAM). I also have research interests and experience in multimodal large language models, reinforcement learning, and agent systems for UAVs and robots.
 
-I am currently seeking 2027 new-graduate full-time opportunities in robotics and embodied AI, and I welcome inquiries regarding research collaborations and industry positions.
+I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI* and *MLLM*, welcome to reach out to me via email or WeChat!
 
 <span class='anchor' id='news'></span>
 
@@ -45,7 +45,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in robotics and
 
 <span class='anchor' id='education'></span>
 
-# <i class="fas fa-graduation-cap" style="color:#3b82f6;"></i> Education
+# <i class="fas fa-graduation-cap" style="color:#0f766e;"></i> Education
 
 - *2023.09 - Present*, Ph.D. student, School of Artificial Intelligence, Beihang University
 - *2021.09 - 2023.06*, M.Eng., School of Software, Beihang University
@@ -54,11 +54,11 @@ I am currently seeking 2027 new-graduate full-time opportunities in robotics and
 <span class='anchor' id='publications'></span>
 
 <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap;">
-  <h1 style="margin:0;"><i class="fas fa-file-alt" style="color:#14b8a6;"></i> Publications</h1>
-  <span style="font-size:0.8em; font-style:italic; color:#666;">Equal-contribution authors are in bold.</span>
+  <h1 style="margin:0;"><i class="fas fa-file-alt" style="color:#0f766e;"></i> Publications</h1>
+  <span style="font-size:0.8em; font-style:italic; color:#666;">Equal-contribution authors are marked with *.</span>
 </div>
 
-## 2026
+<div class="pub-year-divider"><span>2026</span></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_robointerpp.png' alt="RoboInter++ teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -74,7 +74,7 @@ An extension of RoboInter toward embodied world modeling with dense intermediate
 <div class='paper-box-text' markdown="1">
 
 **RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation**  
-<strong>Ziqin Wang*</strong>, <strong>Hao Li* </strong>, Zi-han Ding, Shuai Yang, Yilun Chen, Yang Tian, Xiaolin Hu, Tai Wang, Dahua Lin, Feng Zhao, Si Liu, Jiangmiao Pang  
+<strong>Ziqin Wang* </strong>, Hao Li*, Zi-han Ding, Shuai Yang, Yilun Chen, Yang Tian, Xiaolin Hu, Tai Wang, Dahua Lin, Feng Zhao, Si Liu, Jiangmiao Pang  
 *ICLR 2026*  
 An intermediate-representation suite for robotic manipulation, including data, tools, benchmarks, and VLA modeling components.
 
@@ -87,7 +87,7 @@ An intermediate-representation suite for robotic manipulation, including data, t
 <div class='paper-box-text' markdown="1">
 
 **LLaVA-CMoE: Towards Continual Mixture of Experts for Large Vision-Language Models**  
-Hengyuan Zhao, <strong>Ziqin Wang</strong>, Qixin Sun, Kaiyou Song, Yilin Li, Xiaolin Hu, Qingpei Guo, Si Liu  
+<strong>Ziqin Wang* </strong>, <strong>Hengyuan Zhao* </strong> , Qixin Sun, Kaiyou Song, Yilin Li, Xiaolin Hu, Qingpei Guo, Si Liu  
 *ICML, 2026*  
 A continual mixture-of-experts framework for large vision-language models with strong retention and efficient parameter growth.
 
@@ -98,14 +98,14 @@ A continual mixture-of-experts framework for large vision-language models with s
 <div class='paper-box-text' markdown="1">
 
 **VaccineRAG: Boosting Multimodal Large Language Models' Immunity to Harmful RAG Samples**  
-<strong>Qixin Sun*</strong>, <strong>Ziqin Wang*</strong>, <strong>Hengyuan Zhao*</strong>, Yilin Li, Kaiyou Song, Linjiang Huang, Xiaolin Hu, Qingpei Guo, Si Liu  
+Qixin Sun* <strong>Ziqin Wang*</strong>, Hengyuan Zhao*, Yilin Li, Kaiyou Song, Linjiang Huang, Xiaolin Hu, Qingpei Guo, Si Liu  
 *AAAI 2026*  
 A post-training and benchmark framework for improving the robustness of multimodal LLMs against harmful retrieved samples.
 
 </div>
 </div>
 
-## 2025
+<div class="pub-year-divider"><span>2025</span></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/paper_internvlam1.png' alt="InternVLA-M1 teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -123,7 +123,7 @@ A spatially guided vision-language-action framework toward generalist robot poli
 <div class='paper-box-text' markdown="1">
 
 **Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology**  
-<strong>Xiangyu Wang*</strong>, <strong>Ziqin Wang*</strong>, <strong>Donglin Yang*</strong>,  Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu  
+Xiangyu Wang*, <strong>Ziqin Wang* </strong>, Donglin Yang*,  Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu  
 *ICLR 2025*  
 A realistic UAV vision-language navigation platform and benchmark with collaborative large-small model planning.
 
@@ -141,13 +141,13 @@ An agentic UAV assistant system that integrates LLM reasoning with low-level ski
 </div>
 </div>
 
-## 2024
+<div class="pub-year-divider"><span>2024</span></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 Spotlight</div><img src='images/paper_coohoi.png' alt="CooHOI teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics**  
-<strong>Ziqin Wang*</strong>, <strong>Jiawei Gao*</strong>, Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang  
+<strong>Ziqin Wang* </strong>, Jiawei Gao*, Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang  
 *NeurIPS 2024, Spotlight*  
 A cooperative embodied control framework that transfers single-agent priors to efficient multi-agent interaction learning.
 
@@ -158,7 +158,7 @@ A cooperative embodied control framework that transfers single-agent priors to e
 <div class='paper-box-text' markdown="1">
 
 **Asynchronous Large Language Model Enhanced Planner for Autonomous Driving**  
-<strong>Yuan Chen*</strong>, <strong>Zi-han Ding*</strong>, <strong>Ziqin Wang*</strong>, Yan Wang, Lijun Zhang, Si Liu  
+<strong>Yuan Chen* </strong>, <strong>Zi-han Ding* </strong>, <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang, Si Liu  
 *ECCV 2024*  
 An autonomous driving planner that decouples large-model reasoning from fast low-level planning for better deployment efficiency.
 
@@ -169,14 +169,14 @@ An autonomous driving planner that decouples large-model reasoning from fast low
 <div class='paper-box-text' markdown="1">
 
 **Octavius: Mitigating Task Interference in MLLMs via LoRA-MoE**  
-<strong>Zeren Chen*</strong>, <strong>Ziqin Wang*</strong>, Zhen Wang, Huayang Liu, Zhenfei Yin, Si Liu, Lu Sheng, Wanli Ouyang, Yu Qiao, Jing Shao  
+<strong>Zeren Chen* </strong>, <strong>Ziqin Wang* </strong>, Zhen Wang, Huayang Liu, Zhenfei Yin, Si Liu, Lu Sheng, Wanli Ouyang, Yu Qiao, Jing Shao  
 *ICLR 2024*  
 An early multimodal mixture-of-experts framework for mitigating interference across 2D and 3D tasks in multimodal large models.
 
 </div>
 </div>
 
-## 2023
+<div class="pub-year-divider"><span>2023</span></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023 Highlight</div><img src='images/paper_vlsat.png' alt="VL-SAT teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -191,43 +191,89 @@ A visual-linguistic training framework for improving long-tail and zero-shot sem
 
 <span class='anchor' id='experience'></span>
 
-# <i class="fas fa-briefcase" style="color:#f59e0b;"></i> Research and Industry Experience
+# <i class="fas fa-briefcase" style="color:#0f766e;"></i> Research and Industry Experience
 
-- *2024.06 - 2026.06*, Shanghai AI Laboratory
-  - Worked on multi-agent collaboration, robotic manipulation, embodied world models, and VLA systems.
-  - Co-first-author paper accepted to NeurIPS with Spotlight.
-  - Deeply involved in InternVLA-M1, RoboInter, and RoboInter++ related projects.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_shanghai_ai_lab.png' alt="Shanghai AI Laboratory visual" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- *2023.09 - 2024.05*, NIO
-  - Worked on point-cloud perception foundation models.
-  - Improved cone detection recall and optimized inference speed for deployment.
+**Shanghai AI Laboratory**  
+*Research Intern, 2024.06 - 2026.06*  
+Worked on multi-agent collaboration, robotic manipulation, embodied world models, and VLA systems. Contributed to InternVLA-M1, RoboInter, and RoboInter++ related projects, including a co-first-author NeurIPS Spotlight paper.
 
-- *2022.05 - 2023.09*, SenseTime OpenGVLab
-  - Participated in InternVL pretraining and CLIP reproduction/optimization.
-  - Explored multimodal large models with mixture-of-experts architectures.
+</div>
+</div>
 
-- *2021.05 - 2022.05*, SenseTime
-  - Worked on core algorithm development for liveness detection, from data collection to iterative model improvement.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_nio.svg' alt="NIO placeholder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**NIO**  
+*Research Intern, 2023.09 - 2024.05*  
+Worked on point-cloud perception foundation models for autonomous driving and improved cone detection recall while optimizing inference speed for deployment.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_sensetime.png' alt="SenseTime OpenGVLab visual" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SenseTime OpenGVLab**  
+*Research Intern, 2022.05 - 2023.09*  
+Participated in InternVL pretraining and CLIP reproduction and optimization, and explored multimodal large models with mixture-of-experts architectures.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_sensetime.png' alt="SenseTime visual" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SenseTime**  
+*Algorithm Intern, 2021.05 - 2022.05*  
+Worked on liveness detection algorithms, covering data collection, model iteration, and practical system improvement for real-world deployment.
+
+</div>
+</div>
 
 <span class='anchor' id='projects'></span>
 
-# <i class="fas fa-rocket" style="color:#ef4444;"></i> Projects
+# <i class="fas fa-rocket" style="color:#0f766e;"></i> Projects
 
-### AirStar
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/project_airstar.png' alt="AirStar visual" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-An LLM-agent-based UAV assistant system. It integrates skill selection and tool calling to support campus navigation, photo capture, following, and visual question answering for UAVs.
+**AirStar**  
+*LLM-Agent UAV Assistant*  
+An LLM-agent-based UAV assistant system that integrates skill selection and tool calling to support campus navigation, photo capture, following, and visual question answering for UAVs.
 
-### ScholarMind
+[Code](https://github.com/wz7in/airstar) | [Project Page](https://buaa-colalab.github.io/airstar.github.io/)
 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/project_scholarmind.png' alt="ScholarMind visual" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**ScholarMind**  
+*Research Productivity Tool*  
 An intelligent tool for improving research reading efficiency, including paper crawling, content analysis, report generation, and research idea summarization.
 
-### UAV Planning with Large-Small Model Collaboration
+[Code](https://github.com/wz7in/ScholarMind?tab=readme-ov-file)
 
-A collaborative UAV navigation framework developed with the Chinese University of Hong Kong, where a large model handles multimodal understanding and a smaller model generates fine-grained trajectories.
+</div>
+</div>
 
 <span class='anchor' id='honors'></span>
 
-# <i class="fas fa-award" style="color:#eab308;"></i> Honors and Awards
+# <i class="fas fa-award" style="color:#0f766e;"></i> Honors and Awards
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/award_roco_aaai2026.svg' alt="RoCo AAAI 2026 placeholder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing**  
+*Second Place Award (2/62), Team Leader*  
+Led the team in the AAAI 2026 RoCo Challenge and achieved second place among 62 participating teams.
+
+</div>
+</div>
 
 - Second Place Award (2/62), **RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing**, Team Leader
 - Grand Prize, Beihang "Feng Ru Cup" Creativity Track
@@ -237,11 +283,11 @@ A collaborative UAV navigation framework developed with the Chinese University o
 
 <span class='anchor' id='service'></span>
 
-# <i class="fas fa-users" style="color:#22c55e;"></i> Academic Service
+# <i class="fas fa-users" style="color:#0f766e;"></i> Academic Service
 - Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, ICML, and ACM MM
 
 <span class='anchor' id='links'></span>
 
-# <i class="fas fa-link" style="color:#06b6d4;"></i> Links
+# <i class="fas fa-link" style="color:#0f766e;"></i> Links
 - Email: [wzqin@buaa.edu.cn](mailto:wzqin@buaa.edu.cn)
 - WeChat: `wzqinTT`

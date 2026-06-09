@@ -1,0 +1,16 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#F8FAFC"/>
+  <rect x="36" y="36" width="1128" height="648" rx="28" fill="url(#paint0_linear)"/>
+  <circle cx="170" cy="150" r="54" fill="#FFFFFF" fill-opacity="0.2"/>
+  <rect x="122" y="230" width="956" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.26"/>
+  <rect x="122" y="262" width="820" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.18"/>
+  <text x="122" y="150" fill="white" font-size="52" font-family="Arial, Helvetica, sans-serif" font-weight="700">RoCo Challenge @ AAAI 2026</text>
+  <text x="122" y="338" fill="white" font-size="30" font-family="Arial, Helvetica, sans-serif">Replace with your award or competition photo later</text>
+  <text x="122" y="590" fill="white" fill-opacity="0.9" font-size="26" font-family="Arial, Helvetica, sans-serif">Reserved image slot</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="84" y1="96" x2="1098" y2="652" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CA8A04"/>
+      <stop offset="1" stop-color="#A16207"/>
+    </linearGradient>
+  </defs>
+</svg>
