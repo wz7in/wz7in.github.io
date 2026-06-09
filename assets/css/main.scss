@@ -155,6 +155,12 @@ $card-shadow: rgba(15, 118, 110, 0.16);
     }
 }
 
+.section-note {
+    font-size: .8em;
+    font-style: italic;
+    color: var(--section-accent-dark, #64748b);
+}
+
 .pub-year-group {
     margin: .2rem 0 1.1rem;
 
@@ -241,22 +247,26 @@ $card-shadow: rgba(15, 118, 110, 0.16);
     }
 }
 
-.honors-stack {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
-}
+.section-list {
+    margin: .95rem 0 0 1.15rem;
+    padding-left: 1.1rem;
 
-.honors-item {
-    margin: 0;
-    padding: 0 0 1rem;
-    border-bottom: 1px solid var(--section-accent-line, rgba(217, 119, 6, 0.18));
-}
+    li {
+        padding: 0 0 .9rem .2rem;
+        border-bottom: 1px solid var(--section-accent-line, rgba(15, 118, 110, 0.14));
+    }
 
-.honors-item strong {
-    color: var(--section-accent-dark, #b45309);
+    li + li {
+        margin-top: .85rem;
+    }
+
+    li::marker {
+        color: var(--section-accent-dark, #{$card-accent-dark});
+    }
+
+    strong {
+        color: var(--section-accent-dark, #{$card-accent-dark});
+    }
 }
 
 $scroll_offset : 2em;
@@ -277,8 +287,8 @@ h1:before, .anchor:before {
     margin-left: -.4em;
     border-radius: 999px;
     color: white;
-    background: linear-gradient(135deg, $card-accent 0%, $card-accent-dark 100%);
-    box-shadow: 0 10px 22px rgba(15, 118, 110, 0.22);
+    background: linear-gradient(135deg, var(--section-accent, #{$card-accent}) 0%, var(--section-accent-dark, #{$card-accent-dark}) 100%);
+    box-shadow: 0 10px 22px var(--section-badge-shadow, rgba(15, 118, 110, 0.22));
     font-size: .8em;
     line-height: 1.9;
     letter-spacing: .04em;
@@ -330,6 +340,34 @@ h1:before, .anchor:before {
     --section-surface-strong: rgba(37, 99, 235, 0.05);
     --section-surface-soft: rgba(37, 99, 235, 0.015);
     --section-surface-shadow: rgba(37, 99, 235, 0.07);
+    --section-badge-shadow: rgba(37, 99, 235, 0.22);
+}
+
+.publications-section .pub-year-group .paper-box {
+    border-color: rgba(37, 99, 235, 0.14);
+    background: linear-gradient(180deg, rgba(37, 99, 235, 0.05), rgba(37, 99, 235, 0.015));
+    box-shadow: 0 12px 28px rgba(37, 99, 235, 0.07);
+}
+
+.publications-section .paper-box-image img {
+    border-color: rgba(37, 99, 235, 0.14);
+    box-shadow: 0 16px 36px rgba(37, 99, 235, 0.16);
+}
+
+.publications-section .paper-links a {
+    border-color: rgba(37, 99, 235, 0.16);
+    background: rgba(37, 99, 235, 0.08);
+    color: #1d4ed8;
+}
+
+.publications-section .paper-links a:hover {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: white;
+}
+
+.publications-section .badge {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    box-shadow: 0 10px 22px rgba(37, 99, 235, 0.22);
 }
 
 .experience-section {
@@ -346,10 +384,47 @@ h1:before, .anchor:before {
     --section-link-bg: rgba(219, 39, 119, 0.08);
     --section-link-border: rgba(219, 39, 119, 0.16);
     --section-shadow: rgba(219, 39, 119, 0.16);
+    --section-surface-strong: rgba(219, 39, 119, 0.05);
+    --section-surface-soft: rgba(219, 39, 119, 0.015);
+    --section-surface-shadow: rgba(219, 39, 119, 0.07);
+    --section-badge-shadow: rgba(219, 39, 119, 0.22);
+}
+
+.projects-section .project-card {
+    border: 1px solid rgba(219, 39, 119, 0.14);
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(219, 39, 119, 0.05), rgba(219, 39, 119, 0.015));
+    box-shadow: 0 12px 28px rgba(219, 39, 119, 0.07);
+    padding: 1.25em 1.15em;
+}
+
+.projects-section .project-card + .project-card {
+    margin-top: .85rem;
+}
+
+.projects-section .paper-box-image img {
+    border-color: rgba(219, 39, 119, 0.14);
+    box-shadow: 0 16px 36px rgba(219, 39, 119, 0.16);
 }
 
 .honors-section {
     --section-accent: #d97706;
     --section-accent-dark: #b45309;
     --section-accent-line: rgba(217, 119, 6, 0.18);
+}
+
+.service-section {
+    --section-accent: #4f46e5;
+    --section-accent-dark: #4338ca;
+    --section-accent-line: rgba(79, 70, 229, 0.18);
+}
+
+.links-section {
+    --section-accent: #0891b2;
+    --section-accent-dark: #0e7490;
+    --section-accent-line: rgba(8, 145, 178, 0.18);
+}
+
+.links-section a {
+    color: #0e7490;
 }

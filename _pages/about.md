@@ -27,21 +27,21 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 
 # 🔥 News
 
-- 🔥 2026.06: *RoboInter++* was released as an extension of [RoboInter](https://arxiv.org/abs/2602.09973) toward embodied world modeling.
+- 🎉 2026.06: *RoboInter++* was released as a world-action-modeling extension of [RoboInter](https://arxiv.org/abs/2602.09973) for robotic manipulation and embodied world modeling.
 - 🎉 2026.05: [LLaVA-CMoE](https://arxiv.org/abs/2503.21227) was accepted to **ICML 2026**.
-- 🔥 2026.02: Data, benchmarks, and models from [RoboInter](https://arxiv.org/abs/2602.09973) were open-sourced.
+- 🎉 2026.02: Data, benchmarks, and models from [RoboInter](https://arxiv.org/abs/2602.09973) were open-sourced.
 - 🎉 2026.02: As team leader, I led our team to the Second Place Award (2/62) in the **RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing**.
 - 🎉 2026.01: [RoboInter](https://arxiv.org/abs/2602.09973) was accepted to **ICLR 2026**.
 - 🎉 2025.11: [VaccineRAG](https://ojs.aaai.org/index.php/AAAI/article/download/37876/41838) was accepted to **AAAI 2026**.
-- 🔥 2025.09: [InternVLA-M1](https://arxiv.org/pdf/2510.13778) was released as a technical report.
+- 🎉 2025.09: [InternVLA-M1](https://arxiv.org/pdf/2510.13778) was released as a technical report.
 - 🎉 2025.03: [AirStar](https://dl.acm.org/doi/abs/10.1145/3746027.3754491) was accepted to **ACM MM 2025**.
 - 🎉 2025.01: [OpenUAV](https://proceedings.iclr.cc/paper_files/paper/2025/file/15ce8e7afe5ee95bad56e3b9be28d3d1-Paper-Conference.pdf) was accepted to **ICLR 2025**.
 - 🎉 2024.09: [CooHOI](https://proceedings.neurips.cc/paper_files/paper/2024/file/918b9487f8ea4661e8ba5a02b2126658-Paper-Conference.pdf) was accepted to **NeurIPS 2024** as a **Spotlight** paper.
--  2024.03: I joined **Shanghai AI Laboratory** as a research intern.
+- 🎉 2024.03: I joined **Shanghai AI Laboratory** as a research intern.
 - 🎉 2024.01: [Octavius](https://proceedings.iclr.cc/paper_files/paper/2024/file/6b3b238c5786536dc9f835760e2dba02-Paper-Conference.pdf) was accepted to **ICLR 2024**.
--  2023.05: I joined **NIO** as a research intern.
+- 🎉 2023.05: I joined **NIO** as a research intern.
 - 🎉 2023.03: [VL-SAT](http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VL-SAT_Visual-Linguistic_Semantics_Assisted_Training_for_3D_Semantic_Scene_Graph_CVPR_2023_paper.pdf) was accepted to **CVPR 2023** as a **Highlight** paper.
-- 2021.09: I joined **Sensetime** as a research intern.
+- 🎉 2021.09: I joined **SenseTime** as a research intern.
 {: .news-list}
 
 <span class='anchor' id='education'></span>
@@ -57,7 +57,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 <div class="publications-section">
 <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap;">
   <h1 style="margin:0;"><i class="fas fa-file-alt" style="color:#2563eb;"></i> Publications</h1>
-  <span style="font-size:0.8em; font-style:italic; color:#666;">Equal-contribution authors are marked with *.</span>
+  <span class="section-note">Equal-contribution authors are in bold.</span>
 </div>
 
 <div class="pub-year-divider"><span>2026</span></div>
@@ -77,7 +77,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 <div class='paper-box-text' markdown="1">
 
 **RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation**  
-<strong>Ziqin Wang* </strong>, Hao Li* , Zi-han Ding, Shuai Yang, Yilun Chen, Yang Tian, Xiaolin Hu, Tai Wang, Dahua Lin, Feng Zhao, Si Liu, Jiangmiao Pang  
+<strong>Ziqin Wang</strong>, <strong>Hao Li</strong>, Zi-han Ding, Shuai Yang, Yilun Chen, Yang Tian, Xiaolin Hu, Tai Wang, Dahua Lin, Feng Zhao, Si Liu, Jiangmiao Pang  
 *ICLR 2026*  
 <div class="paper-links">
   <a href="https://arxiv.org/abs/2602.09973" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
@@ -93,7 +93,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 <div class='paper-box-text' markdown="1">
 
 **LLaVA-CMoE: Towards Continual Mixture of Experts for Large Vision-Language Models**  
-<strong>Ziqin Wang* </strong>, <strong>Hengyuan Zhao* </strong> , Qixin Sun, Kaiyou Song, Yilin Li, Xiaolin Hu, Qingpei Guo, Si Liu  
+<strong>Ziqin Wang</strong>, <strong>Hengyuan Zhao</strong>, Qixin Sun, Kaiyou Song, Yilin Li, Xiaolin Hu, Qingpei Guo, Si Liu  
 *ICML, 2026*  
 <div class="paper-links"><a href="https://arxiv.org/abs/2503.21227" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a></div>
 
@@ -104,7 +104,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 <div class='paper-box-text' markdown="1">
 
 **VaccineRAG: Boosting Multimodal Large Language Models' Immunity to Harmful RAG Samples**  
-Qixin Sun*, <strong>Ziqin Wang* </strong>, Hengyuan Zhao*, Yilin Li, Kaiyou Song, Linjiang Huang, Xiaolin Hu, Qingpei Guo, Si Liu  
+<strong>Qixin Sun</strong>, <strong>Ziqin Wang</strong>, <strong>Hengyuan Zhao</strong>, Yilin Li, Kaiyou Song, Linjiang Huang, Xiaolin Hu, Qingpei Guo, Si Liu  
 *AAAI 2026*  
 <div class="paper-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/download/37876/41838" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a></div>
 
@@ -134,7 +134,7 @@ InternVLA-M1 Team
 <div class='paper-box-text' markdown="1">
 
 **Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology**  
-Xiangyu Wang* , <strong>Ziqin Wang* </strong>, Donglin Yang* ,  Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu  
+<strong>Xiangyu Wang</strong>, <strong>Ziqin Wang</strong>, <strong>Donglin Yang</strong>, Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu  
 *ICLR 2025*  
 <div class="paper-links">
   <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/15ce8e7afe5ee95bad56e3b9be28d3d1-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
@@ -166,7 +166,7 @@ Xiangyu Wang* , <strong>Ziqin Wang* </strong>, Donglin Yang* ,  Hohin Kwan, Jiny
 <div class='paper-box-text' markdown="1">
 
 **CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics**  
-<strong>Ziqin Wang* </strong>, Jiawei Gao* , Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang  
+<strong>Ziqin Wang</strong>, <strong>Jiawei Gao</strong>, Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang  
 *NeurIPS 2024, Spotlight*  
 <div class="paper-links">
   <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/918b9487f8ea4661e8ba5a02b2126658-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
@@ -180,7 +180,7 @@ Xiangyu Wang* , <strong>Ziqin Wang* </strong>, Donglin Yang* ,  Hohin Kwan, Jiny
 <div class='paper-box-text' markdown="1">
 
 **Asynchronous Large Language Model Enhanced Planner for Autonomous Driving**  
-Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang, Si Liu  
+<strong>Yuan Chen</strong>, <strong>Zi-han Ding</strong>, <strong>Ziqin Wang</strong>, Yan Wang, Lijun Zhang, Si Liu  
 *ECCV 2024*  
 <div class="paper-links">
   <a href="https://link.springer.com/chapter/10.1007/978-3-031-72764-1_2" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
@@ -194,7 +194,7 @@ Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang
 <div class='paper-box-text' markdown="1">
 
 **Octavius: Mitigating Task Interference in MLLMs via LoRA-MoE**  
-<strong>Zeren Chen* </strong>, <strong>Ziqin Wang* </strong>, Zhen Wang, Huayang Liu, Zhenfei Yin, Si Liu, Lu Sheng, Wanli Ouyang, Yu Qiao, Jing Shao  
+<strong>Zeren Chen</strong>, <strong>Ziqin Wang</strong>, Zhen Wang, Huayang Liu, Zhenfei Yin, Si Liu, Lu Sheng, Wanli Ouyang, Yu Qiao, Jing Shao  
 *ICLR 2024*  
 <div class="paper-links">
   <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/6b3b238c5786536dc9f835760e2dba02-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
@@ -302,22 +302,32 @@ An intelligent tool for improving research reading efficiency, including paper c
 # <i class="fas fa-award" style="color:#d97706;"></i> Honors and Awards
 
 <div class="honors-section">
-<div class="honors-stack">
-  <div class="honors-item">Second Place Award (2/62), <strong>RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing</strong>, Team Leader</div>
-  <div class="honors-item">Grand Prize, Beihang "Feng Ru Cup" Creativity Track</div>
-  <div class="honors-item">Ranked 7/180 during undergraduate study</div>
-  <div class="honors-item">First-Place Academic Scholarship, Beihang University</div>
-  <div class="honors-item">First-Class Scholarship for Ph.D. Freshmen, Beihang University</div>
-</div>
+<ul class="section-list honors-list">
+  <li>Second Place Award (2/62), <strong>RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing</strong>, Team Leader</li>
+  <li>Grand Prize, Beihang "Feng Ru Cup" Creativity Track</li>
+  <li>Ranked 7/180 during undergraduate study</li>
+  <li>First-Place Academic Scholarship, Beihang University</li>
+  <li>First-Class Scholarship for Ph.D. Freshmen, Beihang University</li>
+</ul>
 </div>
 
 <span class='anchor' id='service'></span>
 
 # <i class="fas fa-users" style="color:#2563eb;"></i> Academic Service
-- Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, ICML, and ACM MM
+
+<div class="service-section">
+<ul class="section-list">
+  <li>Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, ICML, and ACM MM</li>
+</ul>
+</div>
 
 <span class='anchor' id='links'></span>
 
 # <i class="fas fa-link" style="color:#0ea5e9;"></i> Links
-- Email: [wzqin@buaa.edu.cn](mailto:wzqin@buaa.edu.cn)
-- WeChat: `wzqinTT`
+
+<div class="links-section">
+<ul class="section-list">
+  <li>Email: [wzqin@buaa.edu.cn](mailto:wzqin@buaa.edu.cn)</li>
+  <li>WeChat: `wzqinTT`</li>
+</ul>
+</div>
