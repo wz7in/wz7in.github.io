@@ -69,6 +69,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in robotics and
 An extension of RoboInter toward embodied world modeling with dense intermediate representations and controllable long-horizon generation.
 
 </div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/paper_robointer.png' alt="RoboInter teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -91,6 +92,7 @@ Hengyuan Zhao, <strong>Ziqin Wang</strong>, Qixin Sun, Kaiyou Song, Yilin Li, Xi
 A continual mixture-of-experts framework for large vision-language models with strong retention and efficient parameter growth.
 
 </div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/paper_vaccinerag.png' alt="VaccineRAG teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -100,7 +102,6 @@ A continual mixture-of-experts framework for large vision-language models with s
 *AAAI 2026*  
 A post-training and benchmark framework for improving the robustness of multimodal LLMs against harmful retrieved samples.
 
-</div>
 </div>
 </div>
 
