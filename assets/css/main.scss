@@ -117,8 +117,7 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
 
 }
 
-.paper-box:hover .paper-box-image img,
-.honors-highlight:hover .honors-highlight-image img {
+.paper-box:hover .paper-box-image img {
     transform: scale(1.055);
     filter: saturate(1.03);
 }
@@ -127,17 +126,17 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     padding: 1.4em 0;
 
     .paper-box-image img {
-        max-width: 160px;
+        max-width: 208px;
     }
 
     @include breakpoint($medium) {
         .paper-box-image {
             min-width: 140px;
-            max-width: 20%;
+            max-width: 26%;
         }
 
         .paper-box-text {
-            max-width: 80%;
+            max-width: 74%;
         }
     }
 }
@@ -146,26 +145,28 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     margin: .2rem 0 1.1rem;
 
     .paper-box {
-        border-bottom: none;
-        padding: 1.45em 0;
+        border: 1px solid $card-accent-soft;
+        border-radius: 18px;
+        background: linear-gradient(180deg, rgba(15, 118, 110, 0.05), rgba(15, 118, 110, 0.015));
+        box-shadow: 0 12px 28px rgba(15, 118, 110, 0.07);
+        padding: 1.35em 1.2em;
     }
 
     .paper-box + .paper-box {
-        margin-top: .15rem;
+        margin-top: .8rem;
     }
 }
 
 .experience-list {
-    display: grid;
-    gap: .95rem;
-    margin: 1.1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+    margin: 1.05rem 0 0;
 }
 
 .experience-item {
-    padding: 1rem 1.1rem;
-    border-radius: 14px;
-    border: 1px solid $card-accent-soft;
-    background: linear-gradient(180deg, rgba(15, 118, 110, 0.06), rgba(15, 118, 110, 0.02));
+    padding: 0 0 1rem;
+    border-bottom: 1px solid rgba(15, 118, 110, 0.14);
 
     p {
         margin: .55rem 0 0;
@@ -191,36 +192,6 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     }
 }
 
-.honors-highlight {
-    display: flex;
-    align-items: center;
-    gap: 1.35rem;
-    flex-wrap: wrap;
-    margin: 1.1rem 0 1.5rem;
-    padding: 0 0 1.35rem;
-    border-bottom: 1px solid $card-accent-line;
-}
-
-.honors-highlight-image {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 16px;
-
-    img {
-        width: 100%;
-        max-width: 220px;
-        border-radius: 16px;
-        border: 1px solid $card-accent-soft;
-        box-shadow: 0 16px 36px rgba(15, 118, 110, 0.16);
-        object-fit: cover;
-    }
-}
-
-.honors-highlight-text {
-    flex: 1 1 0;
-    min-width: 0;
-}
-
 .honors-list {
     list-style: none;
     margin: 0;
@@ -238,19 +209,6 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
 }
 
 @include breakpoint($medium) {
-    .experience-list {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .honors-highlight {
-        flex-wrap: nowrap;
-    }
-
-    .honors-highlight-image {
-        flex: 0 0 180px;
-        width: 180px;
-    }
-
     .honors-list {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }

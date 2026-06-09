@@ -74,7 +74,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 <div class='paper-box-text' markdown="1">
 
 **RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation**  
-<strong>Ziqin Wang* </strong>, Hao Li*, Zi-han Ding, Shuai Yang, Yilun Chen, Yang Tian, Xiaolin Hu, Tai Wang, Dahua Lin, Feng Zhao, Si Liu, Jiangmiao Pang  
+<strong>Ziqin Wang* </strong>, Hao Li* , Zi-han Ding, Shuai Yang, Yilun Chen, Yang Tian, Xiaolin Hu, Tai Wang, Dahua Lin, Feng Zhao, Si Liu, Jiangmiao Pang  
 *ICLR 2026*  
 
 </div>
@@ -96,7 +96,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 <div class='paper-box-text' markdown="1">
 
 **VaccineRAG: Boosting Multimodal Large Language Models' Immunity to Harmful RAG Samples**  
-Qixin Sun* <strong>Ziqin Wang*</strong>, Hengyuan Zhao*, Yilin Li, Kaiyou Song, Linjiang Huang, Xiaolin Hu, Qingpei Guo, Si Liu  
+Qixin Sun*, <strong>Ziqin Wang* </strong>, Hengyuan Zhao*, Yilin Li, Kaiyou Song, Linjiang Huang, Xiaolin Hu, Qingpei Guo, Si Liu  
 *AAAI 2026*  
 
 </div>
@@ -121,7 +121,7 @@ InternVLA-M1 Team
 <div class='paper-box-text' markdown="1">
 
 **Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology**  
-Xiangyu Wang*, <strong>Ziqin Wang* </strong>, Donglin Yang*,  Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu  
+Xiangyu Wang* , <strong>Ziqin Wang* </strong>, Donglin Yang* ,  Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu  
 *ICLR 2025*  
 
 </div>
@@ -145,7 +145,7 @@ Xiangyu Wang*, <strong>Ziqin Wang* </strong>, Donglin Yang*,  Hohin Kwan, Jinyu 
 <div class='paper-box-text' markdown="1">
 
 **CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics**  
-<strong>Ziqin Wang* </strong>, Jiawei Gao*, Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang  
+<strong>Ziqin Wang* </strong>, Jiawei Gao* , Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang  
 *NeurIPS 2024, Spotlight*  
 
 </div>
@@ -155,7 +155,7 @@ Xiangyu Wang*, <strong>Ziqin Wang* </strong>, Donglin Yang*,  Hohin Kwan, Jinyu 
 <div class='paper-box-text' markdown="1">
 
 **Asynchronous Large Language Model Enhanced Planner for Autonomous Driving**  
-<strong>Yuan Chen* </strong>, <strong>Zi-han Ding* </strong>, <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang, Si Liu  
+Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang, Si Liu  
 *ECCV 2024*  
 
 </div>
@@ -256,20 +256,8 @@ An intelligent tool for improving research reading efficiency, including paper c
 
 # <i class="fas fa-award" style="color:#0f766e;"></i> Honors and Awards
 
-<div class="honors-highlight">
-  <div class="honors-highlight-image">
-    <img src='images/award_roco_aaai2026.jpg' alt="RoCo AAAI 2026 award photo" width="100%">
-  </div>
-  <div class="honors-highlight-text" markdown="1">
-
-**RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing**  
-*Second Place Award (2/62), Team Leader*  
-Led the team and achieved second place among 62 participating teams.
-
-  </div>
-</div>
-
 <ul class="honors-list">
+  <li>Second Place Award (2/62), <strong>RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing</strong>, Team Leader</li>
   <li>Grand Prize, Beihang "Feng Ru Cup" Creativity Track</li>
   <li>Ranked 7/180 during undergraduate study</li>
   <li>First-Place Academic Scholarship, Beihang University</li>
