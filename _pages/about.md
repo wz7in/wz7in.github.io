@@ -19,24 +19,25 @@ redirect_from:
 
 I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang University, advised by Prof. Si Liu, with an expected graduation date of June 2027. I am also a research intern at Shanghai AI Laboratory, where I am supervised by Prof. Jiangmiao Pang and Prof. Jifeng Dai. Prior to my Ph.D., I spent two years in the master's program at Beihang University under the supervision of Prof. Lv Sheng, and I received my B.Eng. from Beihang University.
 
-My research interests lie in Robotics and Embodied AI, particularly Vision-Language-Action (VLA) models and World-Action-Model (WAM). I also have research interests and experience in world models for Embodied AI, multimodal large language models, 2D/3D perception, reinforcement learning, and agent systems for UAVs and robots.
-
-- Google Scholar: <a href='https://scholar.google.com/citations?hl=en&user=BF-xXsIAAAAJ&view_op=list_works'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
-- GitHub: [wz7in](https://github.com/wz7in)
-- Email: [wzqin@buaa.edu.cn](mailto:wzqin@buaa.edu.cn)
-
-Research interests:
-
-- Embodied AI and Robotics
-- Vision-Language-Action Models
-- Multimodal Large Language Models
-- World Models for Embodied Intelligence
-- 2D/3D Perception
-- Reinforcement Learning
+My research interests lie in Robotics and Embodied AI, particularly Vision-Language-Action (VLA) models and World-Action-Model (WAM). I also have research interests and experience in multimodal large language models, reinforcement learning, and agent systems for UAVs and robots.
 
 <span class='anchor' id='education'></span>
 
-# Education
+<span class='anchor' id='news'></span>
+
+# <i class="fas fa-bullhorn"></i> News
+
+- **2026.02**: **RoboInter** was accepted to **ICLR 2026**.
+- **2026.01**: Our team won **Runner-up** in the **RoCo Challenge @ AAAI 2026**.
+- **2025.09**: **InternVLA-M1** was released as a technical report.
+- **2025.03**: Our work on realistic **UAV Vision-Language Navigation** continued to expand toward embodied aerial agents.
+- **2024.06**: I joined **Shanghai AI Laboratory** as a research intern.
+- **2024**: **CooHOI** was accepted to **NeurIPS 2024** as a **Spotlight** paper.
+- **2023**: **VL-SAT** was accepted to **CVPR 2023** as a **Highlight** paper.
+
+<span class='anchor' id='education'></span>
+
+# <i class="fas fa-graduation-cap"></i> Education
 
 - *2023.09 - Present*, Ph.D. student, School of Artificial Intelligence, Beihang University
 - *2021.09 - 2023.06*, M.Eng., School of Software, Beihang University
@@ -44,7 +45,7 @@ Research interests:
 
 <span class='anchor' id='publications'></span>
 
-# Selected Publications
+# <i class="fas fa-file-alt"></i> Selected Publications
 
 ## Technical Reports
 
@@ -179,7 +180,7 @@ An early multimodal MoE architecture for mitigating interference across 2D and 3
 
 <span class='anchor' id='experience'></span>
 
-# Research and Industry Experience
+# <i class="fas fa-briefcase"></i> Research and Industry Experience
 
 - *2024.06 - 2026.06*, Shanghai AI Laboratory
   - Worked on multi-agent collaboration, robotic manipulation, embodied world models, and VLA systems.
@@ -199,7 +200,7 @@ An early multimodal MoE architecture for mitigating interference across 2D and 3
 
 <span class='anchor' id='projects'></span>
 
-# Projects
+# <i class="fas fa-rocket"></i> Projects
 
 ### AirStar
 
@@ -215,7 +216,7 @@ A collaborative UAV navigation framework developed with the Chinese University o
 
 <span class='anchor' id='honors'></span>
 
-# Honors and Awards
+# <i class="fas fa-award"></i> Honors and Awards
 
 - Ranked 7/180 during undergraduate study
 - Ranked 22/64 during Ph.D. study
@@ -228,7 +229,7 @@ A collaborative UAV navigation framework developed with the Chinese University o
 
 <span class='anchor' id='service'></span>
 
-# Academic Service
+# <i class="fas fa-users"></i> Academic Service
 
 - Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, and ACM MM
 - Teaching assistant for courses including *Discrete Mathematics*, *Frontiers of Large Models*, and *Image Processing and Computer Vision*
