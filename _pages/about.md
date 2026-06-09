@@ -304,10 +304,10 @@ An intelligent tool for improving research reading efficiency, including paper c
 <div class="honors-section">
 <ul class="section-list honors-list">
   <li>Second Place Award (2/62), <strong>RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing</strong>, Team Leader</li>
-  <li>Grand Prize, Beihang "Feng Ru Cup" Creativity Track</li>
-  <li>Ranked 7/180 during undergraduate study</li>
-  <li>First-Place Academic Scholarship, Beihang University</li>
-  <li>First-Class Scholarship for Ph.D. Freshmen, Beihang University</li>
+  <li>Grand Prize, Beihang <strong>"Feng Ru Cup"</strong> Creativity Track</li>
+  <li>Ranked <strong>7/180</strong> during undergraduate study</li>
+  <li><strong>First-Place</strong> Academic Scholarship, Beihang University</li>
+  <li><strong>First-Class</strong> Scholarship for Ph.D. Freshmen, Beihang University</li>
 </ul>
 </div>
 
@@ -318,16 +318,5 @@ An intelligent tool for improving research reading efficiency, including paper c
 <div class="service-section">
 <ul class="section-list">
   <li>Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, ICML, and ACM MM</li>
-</ul>
-</div>
-
-<span class='anchor' id='links'></span>
-
-# <i class="fas fa-link" style="color:#0ea5e9;"></i> Links
-
-<div class="links-section">
-<ul class="section-list">
-  <li>Email: <a href="mailto:wzqin@buaa.edu.cn">wzqin@buaa.edu.cn</a></li>
-  <li>WeChat: <code>wzqinTT</code></li>
 </ul>
 </div>

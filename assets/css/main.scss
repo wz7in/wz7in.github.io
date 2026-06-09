@@ -428,3 +428,92 @@ h1:before, .anchor:before {
 .links-section a {
     color: #0e7490;
 }
+
+.honors-list {
+    li {
+        border-bottom: 0;
+        padding-bottom: .15rem;
+    }
+
+    li + li {
+        margin-top: .45rem;
+    }
+}
+
+.author-wechat {
+    position: relative;
+}
+
+.author-wechat-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: .2rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    box-shadow: none;
+    min-width: 0;
+    height: auto;
+}
+
+.author-wechat-trigger:hover,
+.author-wechat-trigger:focus {
+    color: #059669;
+    outline: none;
+}
+
+.author-wechat-bubble {
+    position: absolute;
+    left: calc(100% + .55rem);
+    top: 50%;
+    transform: translateY(-50%) translateX(-4px);
+    padding: .35rem .6rem;
+    border-radius: 999px;
+    background: rgba(5, 150, 105, 0.12);
+    border: 1px solid rgba(5, 150, 105, 0.2);
+    color: #047857;
+    font-size: .82em;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity .18s ease, transform .18s ease, visibility .18s ease;
+}
+
+.author-wechat:hover .author-wechat-bubble,
+.author-wechat:focus-within .author-wechat-bubble {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+}
+
+.author__urls .author-wechat-trigger {
+    font-size: $type-size-5;
+}
+
+.author__urls_sm .author-wechat-inline {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.author__urls_sm .author-wechat-icon {
+    font-size: 1em;
+    line-height: 1;
+}
+
+.author__urls_sm .author-wechat-bubble {
+    left: 50%;
+    top: calc(100% + .55rem);
+    transform: translateX(-50%) translateY(-4px);
+}
+
+.author__urls_sm .author-wechat:hover .author-wechat-bubble,
+.author__urls_sm .author-wechat:focus-within .author-wechat-bubble {
+    transform: translateX(-50%) translateY(0);
+}

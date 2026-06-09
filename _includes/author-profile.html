@@ -31,6 +31,14 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
+      {% if author.wechat %}
+        <li class="author-wechat">
+          <button type="button" class="author-wechat-trigger" aria-label="Show WeChat ID">
+            <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat
+          </button>
+          <span class="author-wechat-bubble">{{ author.wechat }}</span>
+        </li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -125,6 +133,14 @@
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.wechat %}
+        <span class="author-wechat author-wechat-inline">
+          <button type="button" class="author-wechat-trigger author-wechat-icon" aria-label="Show WeChat ID">
+            <i class="fab fa-fw fa-weixin" aria-hidden="true"></i>
+          </button>
+          <span class="author-wechat-bubble">{{ author.wechat }}</span>
+        </span>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
