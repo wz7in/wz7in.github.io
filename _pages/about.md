@@ -193,7 +193,7 @@ A visual-linguistic training framework for improving long-tail and zero-shot sem
 
 # <i class="fas fa-briefcase" style="color:#0f766e;"></i> Research and Industry Experience
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_shanghai_ai_lab.png' alt="Shanghai AI Laboratory visual" width="100%"></div></div>
+<div class='paper-box compact-card'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_shanghai_ai_lab.png' alt="Shanghai AI Laboratory visual" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Shanghai AI Laboratory**  
@@ -203,7 +203,7 @@ Worked on multi-agent collaboration, robotic manipulation, embodied world models
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_nio.svg' alt="NIO placeholder" width="100%"></div></div>
+<div class='paper-box compact-card'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_nio.svg' alt="NIO placeholder" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **NIO**  
@@ -213,7 +213,7 @@ Worked on point-cloud perception foundation models for autonomous driving and im
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_sensetime.png' alt="SenseTime OpenGVLab visual" width="100%"></div></div>
+<div class='paper-box compact-card'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_sensetime.png' alt="SenseTime OpenGVLab visual" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SenseTime OpenGVLab**  
@@ -223,7 +223,7 @@ Participated in InternVL pretraining and CLIP reproduction and optimization, and
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_sensetime.png' alt="SenseTime visual" width="100%"></div></div>
+<div class='paper-box compact-card'><div class='paper-box-image'><div><div class="badge">Internship</div><img src='images/exp_sensetime.png' alt="SenseTime visual" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SenseTime**  
@@ -237,7 +237,7 @@ Worked on liveness detection algorithms, covering data collection, model iterati
 
 # <i class="fas fa-rocket" style="color:#0f766e;"></i> Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/project_airstar.png' alt="AirStar visual" width="100%"></div></div>
+<div class='paper-box compact-card'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/project_airstar.png' alt="AirStar visual" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **AirStar**  
@@ -249,7 +249,7 @@ An LLM-agent-based UAV assistant system that integrates skill selection and tool
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/project_scholarmind.png' alt="ScholarMind visual" width="100%"></div></div>
+<div class='paper-box compact-card'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/project_scholarmind.png' alt="ScholarMind visual" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ScholarMind**  
@@ -265,7 +265,7 @@ An intelligent tool for improving research reading efficiency, including paper c
 
 # <i class="fas fa-award" style="color:#0f766e;"></i> Honors and Awards
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/award_roco_aaai2026.svg' alt="RoCo AAAI 2026 placeholder" width="100%"></div></div>
+<div class='paper-box compact-card'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/award_roco_aaai2026.jpg' alt="RoCo AAAI 2026 placeholder" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing**  
