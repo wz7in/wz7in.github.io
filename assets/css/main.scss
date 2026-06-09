@@ -244,16 +244,16 @@ $card-shadow: rgba(15, 118, 110, 0.16);
 .experience-list {
     display: flex;
     flex-direction: column;
-    gap: 1.15rem;
-    margin: 1.05rem 0 0;
+    gap: .7rem;
+    margin: .9rem 0 0;
 }
 
 .experience-item {
-    padding: 0 0 1rem;
+    padding: 0 0 .65rem;
     border-bottom: 1px solid var(--section-accent-line, rgba(15, 118, 110, 0.14));
 
     p {
-        margin: .55rem 0 0;
+        margin: .4rem 0 0;
     }
 }
 
