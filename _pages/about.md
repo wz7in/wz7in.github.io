@@ -42,6 +42,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 -  2023.05: I joined **NIO** as a research intern.
 - 🎉 2023.03: [VL-SAT](http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VL-SAT_Visual-Linguistic_Semantics_Assisted_Training_for_3D_Semantic_Scene_Graph_CVPR_2023_paper.pdf) was accepted to **CVPR 2023** as a **Highlight** paper.
 - 2021.09: I joined **Sensetime** as a research intern.
+{: .news-list}
 
 <span class='anchor' id='education'></span>
 
@@ -53,8 +54,9 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 
 <span class='anchor' id='publications'></span>
 
+<div class="publications-section">
 <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap;">
-  <h1 style="margin:0;"><i class="fas fa-file-alt" style="color:#0f766e;"></i> Publications</h1>
+  <h1 style="margin:0;"><i class="fas fa-file-alt" style="color:#2563eb;"></i> Publications</h1>
   <span style="font-size:0.8em; font-style:italic; color:#666;">Equal-contribution authors are marked with *.</span>
 </div>
 
@@ -220,11 +222,13 @@ Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang
 </div>
 </div>
 </div>
+</div>
 
 <span class='anchor' id='experience'></span>
 
-# <i class="fas fa-briefcase" style="color:#0f766e;"></i> Research and Industry Experience
+# <i class="fas fa-briefcase" style="color:#059669;"></i> Research and Industry Experience
 
+<div class="experience-section">
 <div class="experience-list">
   <div class="experience-item">
     <div class="experience-item-head">
@@ -258,11 +262,13 @@ Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang
     <p>Worked on liveness detection algorithms, covering data collection, model iteration, and practical system improvement for real-world deployment.</p>
   </div>
 </div>
+</div>
 
 <span class='anchor' id='projects'></span>
 
-# <i class="fas fa-rocket" style="color:#0f766e;"></i> Projects
+# <i class="fas fa-rocket" style="color:#db2777;"></i> Projects
 
+<div class="projects-section">
 <div class='paper-box compact-card project-card'><div class='paper-box-image'><div><img src='images/project_airstar.png' alt="AirStar visual" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -289,26 +295,29 @@ An intelligent tool for improving research reading efficiency, including paper c
 
 </div>
 </div>
+</div>
 
 <span class='anchor' id='honors'></span>
 
-# <i class="fas fa-award" style="color:#0f766e;"></i> Honors and Awards
+# <i class="fas fa-award" style="color:#d97706;"></i> Honors and Awards
 
-<ul class="honors-list">
-  <li>Second Place Award (2/62), <strong>RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing</strong>, Team Leader</li>
-  <li>Grand Prize, Beihang "Feng Ru Cup" Creativity Track</li>
-  <li>Ranked 7/180 during undergraduate study</li>
-  <li>First-Place Academic Scholarship, Beihang University</li>
-  <li>First-Class Scholarship for Ph.D. Freshmen, Beihang University</li>
-</ul>
+<div class="honors-section">
+<div class="honors-stack">
+  <div class="honors-item">Second Place Award (2/62), <strong>RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing</strong>, Team Leader</div>
+  <div class="honors-item">Grand Prize, Beihang "Feng Ru Cup" Creativity Track</div>
+  <div class="honors-item">Ranked 7/180 during undergraduate study</div>
+  <div class="honors-item">First-Place Academic Scholarship, Beihang University</div>
+  <div class="honors-item">First-Class Scholarship for Ph.D. Freshmen, Beihang University</div>
+</div>
+</div>
 
 <span class='anchor' id='service'></span>
 
-# <i class="fas fa-users" style="color:#0f766e;"></i> Academic Service
+# <i class="fas fa-users" style="color:#2563eb;"></i> Academic Service
 - Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, ICML, and ACM MM
 
 <span class='anchor' id='links'></span>
 
-# <i class="fas fa-link" style="color:#0f766e;"></i> Links
+# <i class="fas fa-link" style="color:#0ea5e9;"></i> Links
 - Email: [wzqin@buaa.edu.cn](mailto:wzqin@buaa.edu.cn)
 - WeChat: `wzqinTT`

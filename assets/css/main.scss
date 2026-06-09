@@ -44,6 +44,7 @@ $card-accent: #0f766e;
 $card-accent-dark: #115e59;
 $card-accent-soft: rgba(15, 118, 110, 0.14);
 $card-accent-line: rgba(15, 118, 110, 0.22);
+$card-shadow: rgba(15, 118, 110, 0.16);
 
 .paper-box {
     display: flex;
@@ -51,7 +52,7 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px solid $card-accent-line;
+    border-bottom: 1px solid var(--section-accent-line, #{$card-accent-line});
     padding: 2em 0 2em 0;
     
 
@@ -73,8 +74,8 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
             display: block;
             max-width: 320px;
             border-radius: 16px;
-            border: 1px solid $card-accent-soft;
-            box-shadow: 0 16px 36px rgba(15, 118, 110, 0.16);
+            border: 1px solid var(--section-accent-soft, #{$card-accent-soft});
+            box-shadow: 0 16px 36px var(--section-shadow, #{$card-shadow});
             object-fit: cover;
             transition: transform .24s ease, filter .24s ease, box-shadow .24s ease;
         }
@@ -158,10 +159,10 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     margin: .2rem 0 1.1rem;
 
     .paper-box {
-        border: 1px solid $card-accent-soft;
+        border: 1px solid var(--section-accent-soft, #{$card-accent-soft});
         border-radius: 18px;
-        background: linear-gradient(180deg, rgba(15, 118, 110, 0.05), rgba(15, 118, 110, 0.015));
-        box-shadow: 0 12px 28px rgba(15, 118, 110, 0.07);
+        background: linear-gradient(180deg, var(--section-surface-strong, rgba(15, 118, 110, 0.05)), var(--section-surface-soft, rgba(15, 118, 110, 0.015)));
+        box-shadow: 0 12px 28px var(--section-surface-shadow, rgba(15, 118, 110, 0.07));
         padding: 1.35em 1.2em;
     }
 
@@ -182,9 +183,9 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
         justify-content: center;
         padding: .36rem .78rem;
         border-radius: 999px;
-        border: 1px solid rgba(15, 118, 110, 0.16);
-        background: rgba(15, 118, 110, 0.08);
-        color: $card-accent-dark;
+        border: 1px solid var(--section-link-border, rgba(15, 118, 110, 0.16));
+        background: var(--section-link-bg, rgba(15, 118, 110, 0.08));
+        color: var(--section-accent-dark, #{$card-accent-dark});
         font-size: .9em;
         font-weight: 600;
         line-height: 1.2;
@@ -199,7 +200,7 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
 
     a:hover {
         color: white;
-        background: linear-gradient(135deg, $card-accent 0%, $card-accent-dark 100%);
+        background: linear-gradient(135deg, var(--section-accent, #{$card-accent}) 0%, var(--section-accent-dark, #{$card-accent-dark}) 100%);
         border-color: transparent;
         transform: translateY(-1px);
     }
@@ -214,7 +215,7 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
 
 .experience-item {
     padding: 0 0 1rem;
-    border-bottom: 1px solid rgba(15, 118, 110, 0.14);
+    border-bottom: 1px solid var(--section-accent-line, rgba(15, 118, 110, 0.14));
 
     p {
         margin: .55rem 0 0;
@@ -229,7 +230,7 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     flex-wrap: wrap;
 
     strong {
-        color: $card-accent-dark;
+        color: var(--section-accent-dark, #{$card-accent-dark});
         font-size: 1.03em;
     }
 
@@ -240,19 +241,22 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     }
 }
 
-.honors-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.honors-stack {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
 
-    li {
-        margin: 0;
-        padding: 0 0 1rem;
-        border-bottom: 1px solid rgba(15, 118, 110, 0.14);
-    }
+.honors-item {
+    margin: 0;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid var(--section-accent-line, rgba(217, 119, 6, 0.18));
+}
+
+.honors-item strong {
+    color: var(--section-accent-dark, #b45309);
 }
 
 $scroll_offset : 2em;
@@ -280,12 +284,20 @@ h1:before, .anchor:before {
     letter-spacing: .04em;
 }
 
+.news-list {
+    a {
+        text-decoration: underline;
+        text-decoration-thickness: 1.5px;
+        text-underline-offset: 2px;
+    }
+}
+
 .pub-year-divider {
     display: flex;
     align-items: center;
     gap: .85rem;
     margin: 2.2rem 0 .6rem;
-    color: $card-accent;
+    color: var(--section-accent, #{$card-accent});
     font-size: 1rem;
     font-weight: 700;
     letter-spacing: .08em;
@@ -295,13 +307,49 @@ h1:before, .anchor:before {
         line-height: 1;
         padding: .2rem .7rem;
         border-radius: 999px;
-        background: rgba(15, 118, 110, 0.08);
+        background: var(--section-link-bg, rgba(15, 118, 110, 0.08));
     }
 
     &::after {
         content: "";
         flex: 1 1 auto;
         height: 1px;
-        background: linear-gradient(90deg, rgba(15, 118, 110, 0.45), rgba(15, 118, 110, 0.08));
+        background: linear-gradient(90deg, var(--section-accent-line-strong, rgba(15, 118, 110, 0.45)), var(--section-link-bg, rgba(15, 118, 110, 0.08)));
     }
+}
+
+.publications-section {
+    --section-accent: #2563eb;
+    --section-accent-dark: #1d4ed8;
+    --section-accent-soft: rgba(37, 99, 235, 0.14);
+    --section-accent-line: rgba(37, 99, 235, 0.2);
+    --section-accent-line-strong: rgba(37, 99, 235, 0.42);
+    --section-link-bg: rgba(37, 99, 235, 0.08);
+    --section-link-border: rgba(37, 99, 235, 0.16);
+    --section-shadow: rgba(37, 99, 235, 0.16);
+    --section-surface-strong: rgba(37, 99, 235, 0.05);
+    --section-surface-soft: rgba(37, 99, 235, 0.015);
+    --section-surface-shadow: rgba(37, 99, 235, 0.07);
+}
+
+.experience-section {
+    --section-accent: #059669;
+    --section-accent-dark: #047857;
+    --section-accent-line: rgba(5, 150, 105, 0.18);
+}
+
+.projects-section {
+    --section-accent: #db2777;
+    --section-accent-dark: #be185d;
+    --section-accent-soft: rgba(219, 39, 119, 0.14);
+    --section-accent-line: rgba(219, 39, 119, 0.18);
+    --section-link-bg: rgba(219, 39, 119, 0.08);
+    --section-link-border: rgba(219, 39, 119, 0.16);
+    --section-shadow: rgba(219, 39, 119, 0.16);
+}
+
+.honors-section {
+    --section-accent: #d97706;
+    --section-accent-dark: #b45309;
+    --section-accent-line: rgba(217, 119, 6, 0.18);
 }
