@@ -327,7 +327,7 @@ An intelligent tool for improving research reading efficiency, including paper c
 
 <div class="links-section">
 <ul class="section-list">
-  <li>Email: [wzqin@buaa.edu.cn](mailto:wzqin@buaa.edu.cn)</li>
-  <li>WeChat: `wzqinTT`</li>
+  <li>Email: <a href="mailto:wzqin@buaa.edu.cn">wzqin@buaa.edu.cn</a></li>
+  <li>WeChat: <code>wzqinTT</code></li>
 </ul>
 </div>
