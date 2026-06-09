@@ -161,6 +161,35 @@ $card-shadow: rgba(15, 118, 110, 0.16);
     color: var(--section-accent-dark, #64748b);
 }
 
+.job-seeking-callout {
+    margin: 1.15rem 0 1.75rem;
+    padding: .9rem 1rem;
+    border: 1px solid rgba(217, 119, 6, 0.18);
+    border-left: 4px solid #d97706;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(245, 158, 11, 0.03));
+    box-shadow: 0 10px 24px rgba(245, 158, 11, 0.08);
+    color: #374151;
+    line-height: 1.65;
+}
+
+.job-seeking-label {
+    display: inline-block;
+    margin-right: .55rem;
+    padding: .2rem .55rem;
+    border-radius: 999px;
+    background: rgba(217, 119, 6, 0.12);
+    color: #b45309;
+    font-size: .78em;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.job-seeking-callout strong {
+    color: #92400e;
+}
+
 .pub-year-group {
     margin: .2rem 0 1.1rem;
 

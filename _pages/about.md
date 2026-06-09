@@ -21,7 +21,10 @@ I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang
 
 My research interests lie in Robotics and Embodied AI, particularly Vision-Language-Action (VLA) models and World-Action-Model (WAM). I also have research interests and experience in multimodal large language models, reinforcement learning, and agent systems for UAVs and robots.
 
-I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI* and *MLLM*, welcome to reach out to me via email or WeChat!
+<div class="job-seeking-callout">
+  <span class="job-seeking-label">Open to Opportunities</span>
+  I am currently seeking <strong>2027 new-graduate full-time opportunities</strong> in <em>embodied AI</em> and <em>MLLM</em>. Feel free to reach out via email or WeChat.
+</div>
 
 <span class='anchor' id='news'></span>
 
