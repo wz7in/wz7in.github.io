@@ -67,7 +67,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 **RoboInter++: A Holistic Intermediate Representation Suite for Robotic Manipulation and Embodied World Modeling**  
 <strong>Ziqin Wang</strong>, Hao Li, Weijun Wang, Junhao Cai, Jia Zeng, Jiangmiao Pang, Yilun Chen, Si Liu  
 *Technical Report*  
-<div class="paper-links">[Code](https://github.com/wz7in/RoboInterWorld)</div>
+<div class="paper-links"><a href="https://github.com/wz7in/RoboInterWorld" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a></div>
 
 </div>
 </div>
@@ -77,7 +77,10 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 **RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation**  
 <strong>Ziqin Wang* </strong>, Hao Li* , Zi-han Ding, Shuai Yang, Yilun Chen, Yang Tian, Xiaolin Hu, Tai Wang, Dahua Lin, Feng Zhao, Si Liu, Jiangmiao Pang  
 *ICLR 2026*  
-<div class="paper-links">[Paper](https://arxiv.org/abs/2602.09973) [Code](https://github.com/InternRobotics/RoboInter)</div>
+<div class="paper-links">
+  <a href="https://arxiv.org/abs/2602.09973" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
+  <a href="https://github.com/InternRobotics/RoboInter" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a>
+</div>
 
 </div>
 </div>
@@ -90,7 +93,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 **LLaVA-CMoE: Towards Continual Mixture of Experts for Large Vision-Language Models**  
 <strong>Ziqin Wang* </strong>, <strong>Hengyuan Zhao* </strong> , Qixin Sun, Kaiyou Song, Yilin Li, Xiaolin Hu, Qingpei Guo, Si Liu  
 *ICML, 2026*  
-<div class="paper-links">[Paper](https://arxiv.org/abs/2503.21227)</div>
+<div class="paper-links"><a href="https://arxiv.org/abs/2503.21227" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a></div>
 
 </div>
 </div>
@@ -101,7 +104,7 @@ I am currently seeking 2027 new-graduate full-time opportunities in *embodied AI
 **VaccineRAG: Boosting Multimodal Large Language Models' Immunity to Harmful RAG Samples**  
 Qixin Sun*, <strong>Ziqin Wang* </strong>, Hengyuan Zhao*, Yilin Li, Kaiyou Song, Linjiang Huang, Xiaolin Hu, Qingpei Guo, Si Liu  
 *AAAI 2026*  
-<div class="paper-links">[Paper](https://ojs.aaai.org/index.php/AAAI/article/download/37876/41838)</div>
+<div class="paper-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/download/37876/41838" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a></div>
 
 </div>
 </div>
@@ -116,7 +119,10 @@ Qixin Sun*, <strong>Ziqin Wang* </strong>, Hengyuan Zhao*, Yilin Li, Kaiyou Song
 **InternVLA-M1: A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy**  
 InternVLA-M1 Team  
 *Technical Report, 2025*  
-<div class="paper-links">[Paper](https://arxiv.org/pdf/2510.13778) [Code](https://github.com/InternRobotics/InternVLA-M1)</div>
+<div class="paper-links">
+  <a href="https://arxiv.org/pdf/2510.13778" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
+  <a href="https://github.com/InternRobotics/InternVLA-M1" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a>
+</div>
 
 </div>
 
@@ -128,7 +134,10 @@ InternVLA-M1 Team
 **Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology**  
 Xiangyu Wang* , <strong>Ziqin Wang* </strong>, Donglin Yang* ,  Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu  
 *ICLR 2025*  
-<div class="paper-links">[Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/15ce8e7afe5ee95bad56e3b9be28d3d1-Paper-Conference.pdf) [Project Page](https://prince687028.github.io/Travel/)</div>
+<div class="paper-links">
+  <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/15ce8e7afe5ee95bad56e3b9be28d3d1-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
+  <a href="https://prince687028.github.io/Travel/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Project Page</a>
+</div>
 
 </div>
 </div>
@@ -139,7 +148,10 @@ Xiangyu Wang* , <strong>Ziqin Wang* </strong>, Donglin Yang* ,  Hohin Kwan, Jiny
 **UAVClaw: Hi AirStar, Guide Me to the Badminton Court.**  
 <strong>Ziqin Wang</strong>, Jinyu Chen, Xiangyi Zheng, Qinan Liao, Linjiang Huang, Si Liu  
 *ACM MM 2025*  
-<div class="paper-links">[Paper](https://dl.acm.org/doi/abs/10.1145/3746027.3754491) [Code](https://github.com/wz7in/airstar)</div>
+<div class="paper-links">
+  <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3754491" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
+  <a href="https://github.com/wz7in/airstar" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a>
+</div>
 
 </div>
 </div>
@@ -154,7 +166,10 @@ Xiangyu Wang* , <strong>Ziqin Wang* </strong>, Donglin Yang* ,  Hohin Kwan, Jiny
 **CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics**  
 <strong>Ziqin Wang* </strong>, Jiawei Gao* , Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang  
 *NeurIPS 2024, Spotlight*  
-<div class="paper-links">[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/918b9487f8ea4661e8ba5a02b2126658-Paper-Conference.pdf) [Project Page](https://gao-jiawei.com/CooHOI/)</div>
+<div class="paper-links">
+  <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/918b9487f8ea4661e8ba5a02b2126658-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
+  <a href="https://gao-jiawei.com/CooHOI/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Project Page</a>
+</div>
 
 </div>
 </div>
@@ -165,7 +180,10 @@ Xiangyu Wang* , <strong>Ziqin Wang* </strong>, Donglin Yang* ,  Hohin Kwan, Jiny
 **Asynchronous Large Language Model Enhanced Planner for Autonomous Driving**  
 Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang, Si Liu  
 *ECCV 2024*  
-<div class="paper-links">[Paper](https://link.springer.com/chapter/10.1007/978-3-031-72764-1_2) [Code](https://github.com/memberRE/AsyncDriver)</div>
+<div class="paper-links">
+  <a href="https://link.springer.com/chapter/10.1007/978-3-031-72764-1_2" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
+  <a href="https://github.com/memberRE/AsyncDriver" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a>
+</div>
 
 </div>
 </div>
@@ -176,7 +194,10 @@ Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang
 **Octavius: Mitigating Task Interference in MLLMs via LoRA-MoE**  
 <strong>Zeren Chen* </strong>, <strong>Ziqin Wang* </strong>, Zhen Wang, Huayang Liu, Zhenfei Yin, Si Liu, Lu Sheng, Wanli Ouyang, Yu Qiao, Jing Shao  
 *ICLR 2024*  
-<div class="paper-links">[Paper](https://proceedings.iclr.cc/paper_files/paper/2024/file/6b3b238c5786536dc9f835760e2dba02-Paper-Conference.pdf) [Project Page](https://openlamm.github.io/paper%20list/Octavius)</div>
+<div class="paper-links">
+  <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/6b3b238c5786536dc9f835760e2dba02-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
+  <a href="https://openlamm.github.io/paper%20list/Octavius" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Project Page</a>
+</div>
 
 </div>
 </div>
@@ -191,7 +212,10 @@ Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang
 **VL-SAT: Visual-Linguistic Semantics Assisted Training for 3D Semantic Scene Graph Prediction in Point Cloud**  
 <strong>Ziqin Wang</strong>, Bowen Cheng, Lichen Zhao, Dong Xu, Yang Tang, Lu Sheng  
 *CVPR 2023, Highlight*  
-<div class="paper-links">[Paper](http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VL-SAT_Visual-Linguistic_Semantics_Assisted_Training_for_3D_Semantic_Scene_Graph_CVPR_2023_paper.pdf) [Code](https://github.com/wz7in/CVPR2023-VLSAT)</div>
+<div class="paper-links">
+  <a href="http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VL-SAT_Visual-Linguistic_Semantics_Assisted_Training_for_3D_Semantic_Scene_Graph_CVPR_2023_paper.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> Paper</a>
+  <a href="https://github.com/wz7in/CVPR2023-VLSAT" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a>
+</div>
 
 </div>
 </div>
@@ -239,26 +263,29 @@ Yuan Chen* , Zi-han Ding* , <strong>Ziqin Wang* </strong>, Yan Wang, Lijun Zhang
 
 # <i class="fas fa-rocket" style="color:#0f766e;"></i> Projects
 
-<div class='paper-box compact-card'><div class='paper-box-image'><div><img src='images/project_airstar.png' alt="AirStar visual" width="100%"></div></div>
+<div class='paper-box compact-card project-card'><div class='paper-box-image'><div><img src='images/project_airstar.png' alt="AirStar visual" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **AirStar**  
 *LLM-Agent UAV Assistant*  
 An LLM-agent-based UAV assistant system that integrates skill selection and tool calling to support campus navigation, photo capture, following, and visual question answering for UAVs.
 
-<div class="paper-links">[Code](https://github.com/wz7in/airstar) [Project Page](https://buaa-colalab.github.io/airstar.github.io/)</div>
+<div class="paper-links">
+  <a href="https://github.com/wz7in/airstar" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a>
+  <a href="https://buaa-colalab.github.io/airstar.github.io/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Project Page</a>
+</div>
 
 </div>
 </div>
 
-<div class='paper-box compact-card'><div class='paper-box-image'><div><img src='images/project_scholarmind.png' alt="ScholarMind visual" width="100%"></div></div>
+<div class='paper-box compact-card project-card'><div class='paper-box-image'><div><img src='images/project_scholarmind.png' alt="ScholarMind visual" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ScholarMind**  
 *Research Productivity Tool*  
 An intelligent tool for improving research reading efficiency, including paper crawling, content analysis, report generation, and research idea summarization.
 
-<div class="paper-links">[Code](https://github.com/wz7in/ScholarMind?tab=readme-ov-file)</div>
+<div class="paper-links"><a href="https://github.com/wz7in/ScholarMind?tab=readme-ov-file" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a></div>
 
 </div>
 </div>

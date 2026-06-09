@@ -129,6 +129,31 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     }
 }
 
+.paper-box.project-card {
+    align-items: flex-start;
+
+    .paper-box-image > div {
+        width: 100%;
+        max-width: 270px;
+    }
+
+    .paper-box-image img {
+        max-width: 270px;
+    }
+
+    @include breakpoint($medium) {
+        .paper-box-image {
+            min-width: 180px;
+            max-width: 32%;
+        }
+
+        .paper-box-text {
+            max-width: 68%;
+            padding-left: 1.15em;
+        }
+    }
+}
+
 .pub-year-group {
     margin: .2rem 0 1.1rem;
 
@@ -165,6 +190,11 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
         line-height: 1.2;
         text-decoration: none;
         transition: background-color .18s ease, border-color .18s ease, transform .18s ease, color .18s ease;
+    }
+
+    a i {
+        margin-right: .38rem;
+        font-size: .92em;
     }
 
     a:hover {
@@ -214,21 +244,14 @@ $card-accent-line: rgba(15, 118, 110, 0.22);
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    gap: .85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
     li {
         margin: 0;
-        padding: .9rem 1rem;
-        border-radius: 14px;
-        border: 1px solid $card-accent-soft;
-        background: linear-gradient(180deg, rgba(15, 118, 110, 0.06), rgba(15, 118, 110, 0.02));
-    }
-}
-
-@include breakpoint($medium) {
-    .honors-list {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 0 0 1rem;
+        border-bottom: 1px solid rgba(15, 118, 110, 0.14);
     }
 }
 
