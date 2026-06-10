@@ -648,13 +648,13 @@ h1:before, .anchor:before {
     --section-surface-shadow: rgba(99, 102, 241, 0.07);
 }
 
-.education-section .education-list::before {
+.education-section .experience-list::before {
     width: 3px;
     left: .39rem;
     background: linear-gradient(180deg, rgba(99, 102, 241, 0.78), rgba(99, 102, 241, 0.2));
 }
 
-.education-section .education-list::after {
+.education-section .experience-list::after {
     left: .08rem;
     width: .66rem;
     height: .66rem;
@@ -662,13 +662,13 @@ h1:before, .anchor:before {
     border-right-color: rgba(99, 102, 241, 0.86);
 }
 
-.education-section .education-item {
+.education-section .experience-item {
     border-color: rgba(99, 102, 241, 0.14);
     background: linear-gradient(180deg, rgba(99, 102, 241, 0.05), rgba(99, 102, 241, 0.015));
     box-shadow: 0 12px 28px rgba(99, 102, 241, 0.07);
 }
 
-.education-section .education-item::before {
+.education-section .experience-item::before {
     left: -1.5rem;
     width: .86rem;
     height: .86rem;
@@ -676,7 +676,7 @@ h1:before, .anchor:before {
     box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.16);
 }
 
-.education-section .education-item:hover {
+.education-section .experience-item:hover {
     box-shadow: 0 16px 30px rgba(99, 102, 241, 0.12);
 }
 
@@ -857,4 +857,118 @@ h1:before, .anchor:before {
     opacity: 1;
     visibility: visible;
     transform: translateX(-50%) translateY(0);
+}
+
+.greedy-nav .visible-links a.is-current {
+    color: #111827;
+    font-weight: 700;
+    position: relative;
+}
+
+.greedy-nav .visible-links a.is-current::after {
+    content: "";
+    position: absolute;
+    left: .35rem;
+    right: .35rem;
+    bottom: -.34rem;
+    height: 2px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #2563eb 0%, #059669 100%);
+    opacity: .88;
+}
+
+@media (min-width: 1024px) {
+    body.home-screen-mode {
+        overflow: hidden;
+    }
+
+    body.home-screen-mode #main {
+        margin-bottom: 0;
+    }
+
+    .page__content.is-screen-mode {
+        min-height: 0;
+        padding-bottom: 0;
+    }
+
+    .section-deck.is-screen-mode {
+        position: relative;
+        height: var(--deck-height, calc(100dvh - 8rem));
+        min-height: 500px;
+        overflow: hidden;
+        isolation: isolate;
+    }
+
+    .section-deck.is-screen-mode h1:before,
+    .section-deck.is-screen-mode .anchor:before {
+        display: none;
+    }
+
+    .section-deck.is-screen-mode .screen-section {
+        position: absolute;
+        inset: 0;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transform: translateY(22px);
+        transition: opacity .28s ease, transform .32s ease, visibility 0s linear .32s;
+    }
+
+    .section-deck.is-screen-mode .screen-section.is-active {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateY(0);
+        transition-delay: 0s;
+    }
+
+    .section-deck.is-screen-mode .screen-section__body {
+        height: 100%;
+        overflow-y: auto;
+        padding: .45rem .9rem 2.5rem 0;
+        scrollbar-gutter: stable;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .section-deck.is-screen-mode .screen-section__body > .anchor + * {
+        margin-top: 0;
+    }
+
+    .section-deck.is-screen-mode .screen-section--intro .screen-section__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 1.4rem;
+        padding-bottom: 12vh;
+    }
+
+    .section-deck.is-screen-mode .screen-section--intro .job-seeking-callout {
+        margin-bottom: 0;
+    }
+
+    .section-deck.is-screen-mode .publications-section,
+    .section-deck.is-screen-mode .experience-section,
+    .section-deck.is-screen-mode .education-section,
+    .section-deck.is-screen-mode .projects-section,
+    .section-deck.is-screen-mode .honors-section,
+    .section-deck.is-screen-mode .service-section,
+    .section-deck.is-screen-mode .news-list,
+    .section-deck.is-screen-mode .news-pager {
+        margin-bottom: 0;
+    }
+
+    .section-deck.is-screen-mode .screen-section__body::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .section-deck.is-screen-mode .screen-section__body::-webkit-scrollbar-track {
+        background: rgba(148, 163, 184, 0.12);
+        border-radius: 999px;
+    }
+
+    .section-deck.is-screen-mode .screen-section__body::-webkit-scrollbar-thumb {
+        background: rgba(100, 116, 139, 0.42);
+        border-radius: 999px;
+    }
 }

@@ -285,25 +285,25 @@ InternVLA-M1 Team
 # <i class="fas fa-graduation-cap" style="color:#6366f1;"></i> Education
 
 <div class="education-section">
-<div class="education-list">
-  <div class="education-item">
-    <div class="education-item-head">
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="experience-item-head">
       <strong>Beihang University</strong>
       <span>*2023.09 - Present*</span>
     </div>
     <p>Ph.D. student, School of Artificial Intelligence.</p>
   </div>
 
-  <div class="education-item">
-    <div class="education-item-head">
+  <div class="experience-item">
+    <div class="experience-item-head">
       <strong>Beihang University</strong>
       <span>*2021.09 - 2023.06*</span>
     </div>
     <p>M.Eng., School of Software.</p>
   </div>
 
-  <div class="education-item">
-    <div class="education-item-head">
+  <div class="experience-item">
+    <div class="experience-item-head">
       <strong>Beihang University</strong>
       <span>*2017.09 - 2021.06*</span>
     </div>
@@ -424,7 +424,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!newsList) return;
 
     const newsItems = Array.from(newsList.querySelectorAll("li"));
-    const pageSize = 10;
+    const pageSize = 6;
     const totalPages = Math.ceil(newsItems.length / pageSize);
 
     if (totalPages <= 1) return;
@@ -493,7 +493,310 @@ document.addEventListener("DOMContentLoaded", function () {
     setActivePage(0);
   };
 
+  const initSectionDeck = () => {
+    const pageContent = document.querySelector(".page__content");
+    if (!pageContent) return;
+
+    const sectionIds = [
+      "about-me",
+      "news",
+      "publications",
+      "experience",
+      "education",
+      "projects",
+      "honors",
+      "service"
+    ];
+    const sectionIndexMap = new Map(sectionIds.map((id, index) => [id, index]));
+
+    const buildDeck = () => {
+      const existingDeck = pageContent.querySelector(".section-deck");
+      if (existingDeck) return existingDeck;
+
+      const anchors = sectionIds.map((id) => pageContent.querySelector(".anchor#" + id));
+      if (anchors.some((anchor) => !anchor)) return null;
+
+      const deck = document.createElement("div");
+      deck.className = "section-deck";
+      pageContent.insertBefore(deck, anchors[0]);
+
+      sectionIds.forEach((id) => {
+        const anchor = pageContent.querySelector(".anchor#" + id);
+        if (!anchor) return;
+
+        const section = document.createElement("section");
+        section.className = "screen-section";
+        section.dataset.sectionId = id;
+
+        if (id === "about-me") {
+          section.classList.add("screen-section--intro");
+        }
+
+        const body = document.createElement("div");
+        body.className = "screen-section__body";
+        section.appendChild(body);
+        deck.appendChild(section);
+
+        let currentNode = anchor;
+        while (currentNode) {
+          if (
+            currentNode !== anchor &&
+            currentNode.nodeType === Node.ELEMENT_NODE &&
+            currentNode.classList.contains("anchor") &&
+            sectionIndexMap.has(currentNode.id)
+          ) {
+            break;
+          }
+
+          if (
+            currentNode.nodeType === Node.ELEMENT_NODE &&
+            currentNode.tagName === "SCRIPT"
+          ) {
+            break;
+          }
+
+          const nextNode = currentNode.nextSibling;
+          body.appendChild(currentNode);
+          currentNode = nextNode;
+        }
+      });
+
+      return deck;
+    };
+
+    const deck = buildDeck();
+    if (!deck || deck.dataset.deckReady === "true") return;
+    deck.dataset.deckReady = "true";
+
+    const sections = Array.from(deck.querySelectorAll(".screen-section"));
+    if (!sections.length) return;
+
+    const desktopQuery = window.matchMedia("(min-width: 1024px)");
+    const navLinks = Array.from(
+      document.querySelectorAll(".greedy-nav a[href]")
+    ).filter((link) => {
+      const href = link.getAttribute("href") || "";
+      if (!href.includes("#")) return false;
+      const hash = href.slice(href.indexOf("#") + 1);
+      return sectionIndexMap.has(hash);
+    });
+
+    let activeIndex = 0;
+    let isScreenMode = false;
+    let transitionLocked = false;
+    let unlockTimer = null;
+
+    const getHashIndex = () => {
+      const hash = window.location.hash.replace(/^#/, "");
+      return sectionIndexMap.has(hash) ? sectionIndexMap.get(hash) : 0;
+    };
+
+    const syncNavState = () => {
+      navLinks.forEach((link) => {
+        const href = link.getAttribute("href") || "";
+        const hash = href.slice(href.indexOf("#") + 1);
+        const isCurrent = isScreenMode && sectionIds[activeIndex] === hash;
+
+        link.classList.toggle("is-current", isCurrent);
+
+        if (isCurrent) {
+          link.setAttribute("aria-current", "page");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    };
+
+    const setDeckHeight = () => {
+      if (!isScreenMode) {
+        deck.style.removeProperty("--deck-height");
+        return;
+      }
+
+      const rect = deck.getBoundingClientRect();
+      const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+      const availableHeight = Math.max(500, Math.floor(viewportHeight - rect.top - 10));
+      deck.style.setProperty("--deck-height", availableHeight + "px");
+    };
+
+    const activateSection = (nextIndex, options) => {
+      const settings = Object.assign(
+        { updateHash: true, history: "replace", resetScroll: true },
+        options || {}
+      );
+
+      if (nextIndex < 0 || nextIndex >= sections.length) return false;
+      activeIndex = nextIndex;
+
+      sections.forEach((section, index) => {
+        const body = section.querySelector(".screen-section__body");
+        const isActive = index === activeIndex;
+
+        section.classList.toggle("is-active", isActive);
+
+        if (isScreenMode) {
+          section.setAttribute("aria-hidden", isActive ? "false" : "true");
+
+          if (body) {
+            body.tabIndex = isActive ? 0 : -1;
+            if (isActive && settings.resetScroll) {
+              body.scrollTop = 0;
+            }
+          }
+        } else {
+          section.removeAttribute("aria-hidden");
+          if (body) body.removeAttribute("tabindex");
+        }
+      });
+
+      if (settings.updateHash) {
+        const nextHash = "#" + sectionIds[activeIndex];
+        if (window.location.hash !== nextHash) {
+          if (settings.history === "push") {
+            window.history.pushState(null, "", nextHash);
+          } else {
+            window.history.replaceState(null, "", nextHash);
+          }
+        }
+      }
+
+      syncNavState();
+      return true;
+    };
+
+    const moveSection = (direction, options) => {
+      const nextIndex = activeIndex + direction;
+      if (transitionLocked || nextIndex < 0 || nextIndex >= sections.length) return;
+
+      transitionLocked = true;
+      window.clearTimeout(unlockTimer);
+      activateSection(nextIndex, options);
+
+      unlockTimer = window.setTimeout(() => {
+        transitionLocked = false;
+      }, 380);
+    };
+
+    const isAtTop = (body) => body.scrollTop <= 2;
+    const isAtBottom = (body) =>
+      body.scrollTop + body.clientHeight >= body.scrollHeight - 2;
+
+    deck.addEventListener(
+      "wheel",
+      (event) => {
+        if (!isScreenMode || transitionLocked) return;
+
+        const activeSection = sections[activeIndex];
+        if (!activeSection || !activeSection.contains(event.target)) return;
+
+        const activeBody = activeSection.querySelector(".screen-section__body");
+        if (!activeBody || Math.abs(event.deltaY) < 8) return;
+
+        if (
+          event.deltaY > 0 &&
+          isAtBottom(activeBody) &&
+          activeIndex < sections.length - 1
+        ) {
+          event.preventDefault();
+          moveSection(1, { history: "replace" });
+        } else if (
+          event.deltaY < 0 &&
+          isAtTop(activeBody) &&
+          activeIndex > 0
+        ) {
+          event.preventDefault();
+          moveSection(-1, { history: "replace" });
+        }
+      },
+      { passive: false }
+    );
+
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest(".greedy-nav a[href]");
+      if (!link) return;
+
+      const href = link.getAttribute("href") || "";
+      if (!href.includes("#")) return;
+
+      const hash = href.slice(href.indexOf("#") + 1);
+      if (!sectionIndexMap.has(hash) || !isScreenMode) return;
+
+      event.preventDefault();
+
+      const nextIndex = sectionIndexMap.get(hash);
+      if (nextIndex === activeIndex) {
+        const activeBody = sections[activeIndex].querySelector(".screen-section__body");
+        if (activeBody) {
+          activeBody.scrollTo({ top: 0, behavior: "smooth" });
+        }
+        activateSection(nextIndex, { history: "push", resetScroll: false });
+        return;
+      }
+
+      activateSection(nextIndex, { history: "push" });
+    });
+
+    window.addEventListener("hashchange", () => {
+      if (!isScreenMode) return;
+      activateSection(getHashIndex(), { updateHash: false });
+    });
+
+    const applyScreenMode = () => {
+      const nextMode = desktopQuery.matches;
+      const modeChanged = nextMode !== isScreenMode;
+
+      isScreenMode = nextMode;
+      deck.classList.toggle("is-screen-mode", isScreenMode);
+      pageContent.classList.toggle("is-screen-mode", isScreenMode);
+      document.body.classList.toggle("home-screen-mode", isScreenMode);
+
+      if (isScreenMode) {
+        activeIndex = getHashIndex();
+        setDeckHeight();
+        activateSection(activeIndex, { updateHash: false });
+        window.requestAnimationFrame(setDeckHeight);
+      } else {
+        deck.style.removeProperty("--deck-height");
+        window.clearTimeout(unlockTimer);
+        transitionLocked = false;
+
+        sections.forEach((section) => {
+          const body = section.querySelector(".screen-section__body");
+          section.classList.remove("is-active");
+          section.removeAttribute("aria-hidden");
+          if (body) body.removeAttribute("tabindex");
+        });
+
+        syncNavState();
+
+        if (modeChanged) {
+          const activeAnchor = pageContent.querySelector(
+            ".anchor#" + sectionIds[getHashIndex()]
+          );
+
+          if (activeAnchor) {
+            window.requestAnimationFrame(() => {
+              activeAnchor.scrollIntoView({ block: "start" });
+            });
+          }
+        }
+      }
+    };
+
+    if (typeof desktopQuery.addEventListener === "function") {
+      desktopQuery.addEventListener("change", applyScreenMode);
+    } else if (typeof desktopQuery.addListener === "function") {
+      desktopQuery.addListener(applyScreenMode);
+    }
+
+    window.addEventListener("resize", setDeckHeight);
+    window.addEventListener("load", setDeckHeight);
+
+    applyScreenMode();
+  };
+
   initPublicationsPager();
   initNewsPager();
+  initSectionDeck();
 });
 </script>
