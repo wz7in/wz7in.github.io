@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang University, and a member of [CoLab](https://colalab.net/), advised by [Prof. Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=en), with an expected graduation date of June 2027. I am also a research intern at Shanghai AI Laboratory, where I am supervised by [Prof. Jiangmiao Pang](https://oceanpang.github.io/) and [Prof. Jifeng Dai](https://jifengdai.org/). Prior to my Ph.D., I spent two years in the master's program at Beihang University under the supervision of [Prof. Lv Sheng](https://lucassheng.github.io/), and I received my B.Eng. from Beihang University.
 
-My research interests lie in Robotics and Embodied AI, particularly Vision-Language-Action (VLA) models and World-Action-Model (WAM). I also have research interests and experience in multimodal large language models, reinforcement learning, and agent systems for UAVs and robots.
+My research interests lie in Robotics and Embodied AI, particularly Vision-Language-Action (VLA) models and World-Action-Model (WAM). I also have research interests and experience in multimodal large language models and reinforcement learning.
 
 <div class="job-seeking-callout">
   <span class="job-seeking-label">Open to Opportunities</span>
@@ -63,6 +63,24 @@ My research interests lie in Robotics and Embodied AI, particularly Vision-Langu
   <span class="section-note">Equal-contribution authors are in bold.</span>
 </div>
 
+<div class="pub-year-pager" aria-label="Browse publications by year">
+  <button type="button" class="pub-year-nav" data-pub-nav="prev" aria-label="Previous publication year">
+    <i class="fas fa-chevron-left" aria-hidden="true"></i>
+    <span>Prev</span>
+  </button>
+  <div class="pub-year-tabs">
+    <button type="button" class="pub-year-tab" aria-pressed="false">2026</button>
+    <button type="button" class="pub-year-tab" aria-pressed="false">2025</button>
+    <button type="button" class="pub-year-tab" aria-pressed="false">2024</button>
+    <button type="button" class="pub-year-tab" aria-pressed="false">2023</button>
+  </div>
+  <button type="button" class="pub-year-nav" data-pub-nav="next" aria-label="Next publication year">
+    <span>Next</span>
+    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+  </button>
+</div>
+
+<div class="pub-year-panel" data-year="2026">
 <div class="pub-year-divider"><span>2026</span></div>
 <div class="pub-year-group">
 
@@ -90,8 +108,6 @@ My research interests lie in Robotics and Embodied AI, particularly Vision-Langu
 </div>
 </div>
 
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/paper_cope.png' alt="LLaVA-CMoE teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -114,7 +130,9 @@ My research interests lie in Robotics and Embodied AI, particularly Vision-Langu
 </div>
 </div>
 </div>
+</div>
 
+<div class="pub-year-panel" data-year="2025">
 <div class="pub-year-divider"><span>2025</span></div>
 <div class="pub-year-group">
 
@@ -161,7 +179,9 @@ InternVLA-M1 Team
 </div>
 </div>
 </div>
+</div>
 
+<div class="pub-year-panel" data-year="2024">
 <div class="pub-year-divider"><span>2024</span></div>
 <div class="pub-year-group">
 
@@ -207,7 +227,9 @@ InternVLA-M1 Team
 </div>
 </div>
 </div>
+</div>
 
+<div class="pub-year-panel" data-year="2023">
 <div class="pub-year-divider"><span>2023</span></div>
 <div class="pub-year-group">
 
@@ -222,6 +244,7 @@ InternVLA-M1 Team
   <a href="https://github.com/wz7in/CVPR2023-VLSAT" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a>
 </div>
 
+</div>
 </div>
 </div>
 </div>
@@ -323,3 +346,53 @@ An intelligent tool for improving research reading efficiency, including paper c
   <li>Reviewer for CVPR, ICCV, ECCV, ICLR, NeurIPS, ICML, and ACM MM</li>
 </ul>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const section = document.querySelector(".publications-section");
+  if (!section) return;
+
+  const panels = Array.from(section.querySelectorAll(".pub-year-panel"));
+  const tabs = Array.from(section.querySelectorAll(".pub-year-tab"));
+  const prevButton = section.querySelector('[data-pub-nav="prev"]');
+  const nextButton = section.querySelector('[data-pub-nav="next"]');
+
+  if (!panels.length || !tabs.length || !prevButton || !nextButton) return;
+
+  let currentIndex = 0;
+
+  const setActivePanel = (nextIndex) => {
+    currentIndex = nextIndex;
+
+    panels.forEach((panel, index) => {
+      const isActive = index === currentIndex;
+      panel.classList.toggle("is-active", isActive);
+      panel.hidden = !isActive;
+    });
+
+    tabs.forEach((tab, index) => {
+      const isActive = index === currentIndex;
+      tab.classList.toggle("is-active", isActive);
+      tab.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+
+    prevButton.disabled = currentIndex === 0;
+    nextButton.disabled = currentIndex === panels.length - 1;
+  };
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => setActivePanel(index));
+  });
+
+  prevButton.addEventListener("click", () => {
+    if (currentIndex > 0) setActivePanel(currentIndex - 1);
+  });
+
+  nextButton.addEventListener("click", () => {
+    if (currentIndex < panels.length - 1) setActivePanel(currentIndex + 1);
+  });
+
+  section.classList.add("pub-pager-ready");
+  setActivePanel(0);
+});
+</script>
