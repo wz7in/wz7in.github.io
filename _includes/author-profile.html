@@ -16,9 +16,6 @@
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
@@ -28,7 +25,10 @@
       {% if author.wechat %}
         <li class="author-wechat-row">
           <button type="button" class="author-wechat-trigger" aria-label="Show WeChat ID">
-            <i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat
+            <span class="wechat-glyph" aria-hidden="true">
+              <img src="{{ author.wechat_icon | default: 'images/wechat.svg' }}" alt="">
+            </span>
+            WeChat
           </button>
           <span class="author-wechat-id">{{ author.wechat }}</span>
         </li>
@@ -128,7 +128,9 @@
       {% if author.wechat %}
         <span class="author-wechat-inline">
           <button type="button" class="author-wechat-trigger author-wechat-icon" aria-label="Show WeChat ID">
-            <i class="fab fa-fw fa-weixin" aria-hidden="true"></i>
+            <span class="wechat-glyph" aria-hidden="true">
+              <img src="{{ author.wechat_icon | default: 'images/wechat.svg' }}" alt="">
+            </span>
           </button>
           <span class="author-wechat-id">{{ author.wechat }}</span>
         </span>

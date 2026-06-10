@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ziqin Wang"
-description              : "Wechat: wzqinTT"
+description              : ""
 repository               : "wz7in/wz7in.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ziqin Wang"
   avatar           : "images/avatar.png"
-  bio              : "Ph.D. Student, Beihang University"
+  bio              : ""
   location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=BF-xXsIAAAAJ&view_op=list_works"
   email            : "wzqin@buaa.edu.cn"
+  wechat           : "wzqinTT"
+  wechat_icon      : "images/wechat.svg"
   researchgate     :
   uri              : "https://wz7in.github.io"
   bitbucket        :
