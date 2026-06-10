@@ -643,6 +643,38 @@ h1:before, .anchor:before {
     --section-surface-shadow: rgba(99, 102, 241, 0.07);
 }
 
+.education-section .education-list::before {
+    width: 3px;
+    left: .39rem;
+    background: linear-gradient(180deg, rgba(99, 102, 241, 0.78), rgba(99, 102, 241, 0.2));
+}
+
+.education-section .education-list::after {
+    left: .08rem;
+    width: .66rem;
+    height: .66rem;
+    border-top-color: rgba(99, 102, 241, 0.86);
+    border-right-color: rgba(99, 102, 241, 0.86);
+}
+
+.education-section .education-item {
+    border-color: rgba(99, 102, 241, 0.14);
+    background: linear-gradient(180deg, rgba(99, 102, 241, 0.05), rgba(99, 102, 241, 0.015));
+    box-shadow: 0 12px 28px rgba(99, 102, 241, 0.07);
+}
+
+.education-section .education-item::before {
+    left: -1.5rem;
+    width: .86rem;
+    height: .86rem;
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.16);
+}
+
+.education-section .education-item:hover {
+    box-shadow: 0 16px 30px rgba(99, 102, 241, 0.12);
+}
+
 .projects-section {
     --section-accent: #94a3b8;
     --section-accent-dark: #64748b;
