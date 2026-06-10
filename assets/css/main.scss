@@ -387,6 +387,8 @@ h1:before, .anchor:before {
 }
 
 .news-list {
+    margin-bottom: 2.2rem;
+
     a {
         text-decoration: underline;
         text-decoration-thickness: 1.5px;
@@ -400,7 +402,7 @@ h1:before, .anchor:before {
     justify-content: flex-start;
     gap: .65rem;
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin: 1rem 0 7rem;
 }
 
 .news-page-tabs {
