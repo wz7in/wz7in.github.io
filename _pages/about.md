@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang University, and a member of [CoLab](https://colalab.net/), advised by [Prof. Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=en), with an expected graduation date of June 2027. I am also a research intern at Shanghai AI Laboratory, where I am supervised by [Prof. Jiangmiao Pang](https://oceanpang.github.io/) and [Prof. Jifeng Dai](https://jifengdai.org/). Prior to my Ph.D., I spent two years in the master's program at Beihang University under the supervision of [Prof. Lv Sheng](https://lucassheng.github.io/), and I received my B.Eng. from Beihang University. My research interests lie in ``Robotics`` and ``Embodied AI``, I also have research interests and experience in ``multimodal large language models`` and ``reinforcement learning``.
+I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang University, and a member of [CoLab](https://colalab.net/), advised by [Prof. Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=en), with an expected graduation date of June 2027. I am also a research intern at Shanghai AI Laboratory, where I am supervised by [Prof. Jiangmiao Pang](https://oceanpang.github.io/) and [Prof. Jifeng Dai](https://jifengdai.org/). Prior to my Ph.D., I spent two years in the master's program at Beihang University under the supervision of [Prof. Lv Sheng](https://lucassheng.github.io/), and I received my B.Eng. from Beihang University. My research interests lie in ``Embodied AI`` and ``Multimodal Large Language Models``, I also have research interests and experience in ``Reinforcement Learning``.
 
 <div class="job-seeking-callout">
   <span class="job-seeking-label">Open to Opportunities</span>
-  I am currently seeking <strong>2027 new-graduate full-time opportunities</strong> in <em>embodied AI</em> and <em>MLLM</em>. Feel free to reach me out via email or WeChat.
+  I am currently seeking <strong>2027 new-graduate full-time opportunities</strong> in <em>Embodied AI</em> and <em>MLLM</em>. Feel free to reach me out via email or WeChat.
 </div>
 
 <span class='anchor' id='news'></span>
@@ -44,14 +44,6 @@ I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang
 - 🎉 2023.03: [VL-SAT](http://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VL-SAT_Visual-Linguistic_Semantics_Assisted_Training_for_3D_Semantic_Scene_Graph_CVPR_2023_paper.pdf) was accepted to **CVPR 2023** as a **Highlight** paper.
 - 🎉 2021.09: I joined **SenseTime** as a research intern.
 {: .news-list}
-
-<span class='anchor' id='education'></span>
-
-# <i class="fas fa-graduation-cap" style="color:#0f766e;"></i> Education
-
-- *2023.09 - Present*, Ph.D. student, School of Artificial Intelligence, Beihang University
-- *2021.09 - 2023.06*, M.Eng., School of Software, Beihang University
-- *2017.09 - 2021.06*, B.Eng., School of Software, Beihang University
 
 <span class='anchor' id='publications'></span>
 
@@ -248,6 +240,14 @@ InternVLA-M1 Team
 </div>
 </div>
 
+<span class='anchor' id='education'></span>
+
+# <i class="fas fa-graduation-cap" style="color:#0f766e;"></i> Education
+
+- *2023.09 - Present*, Ph.D. student, School of Artificial Intelligence, Beihang University
+- *2021.09 - 2023.06*, M.Eng., School of Software, Beihang University
+- *2017.09 - 2021.06*, B.Eng., School of Software, Beihang University
+
 <span class='anchor' id='experience'></span>
 
 # <i class="fas fa-briefcase" style="color:#059669;"></i> Research and Industry Experience
@@ -290,7 +290,7 @@ InternVLA-M1 Team
 
 <span class='anchor' id='projects'></span>
 
-# <i class="fas fa-rocket" style="color:#db2777;"></i> Projects
+# <i class="fas fa-rocket" style="color:#8fa4af;"></i> Projects
 
 <div class="projects-section">
 <div class='paper-box compact-card project-card'><div class='paper-box-image'><div><img src='images/project_airstar.png' alt="AirStar visual" width="100%"></div></div>
@@ -347,50 +347,128 @@ An intelligent tool for improving research reading efficiency, including paper c
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const section = document.querySelector(".publications-section");
-  if (!section) return;
+  const initPublicationsPager = () => {
+    const section = document.querySelector(".publications-section");
+    if (!section) return;
 
-  const panels = Array.from(section.querySelectorAll(".pub-year-panel"));
-  const tabs = Array.from(section.querySelectorAll(".pub-year-tab"));
-  const prevButton = section.querySelector('[data-pub-nav="prev"]');
-  const nextButton = section.querySelector('[data-pub-nav="next"]');
+    const panels = Array.from(section.querySelectorAll(".pub-year-panel"));
+    const tabs = Array.from(section.querySelectorAll(".pub-year-tab"));
+    const prevButton = section.querySelector('[data-pub-nav="prev"]');
+    const nextButton = section.querySelector('[data-pub-nav="next"]');
 
-  if (!panels.length || !tabs.length || !prevButton || !nextButton) return;
+    if (!panels.length || !tabs.length || !prevButton || !nextButton) return;
 
-  let currentIndex = 0;
+    let currentIndex = 0;
 
-  const setActivePanel = (nextIndex) => {
-    currentIndex = nextIndex;
+    const setActivePanel = (nextIndex) => {
+      currentIndex = nextIndex;
 
-    panels.forEach((panel, index) => {
-      const isActive = index === currentIndex;
-      panel.classList.toggle("is-active", isActive);
-      panel.hidden = !isActive;
-    });
+      panels.forEach((panel, index) => {
+        const isActive = index === currentIndex;
+        panel.classList.toggle("is-active", isActive);
+        panel.hidden = !isActive;
+      });
+
+      tabs.forEach((tab, index) => {
+        const isActive = index === currentIndex;
+        tab.classList.toggle("is-active", isActive);
+        tab.setAttribute("aria-pressed", isActive ? "true" : "false");
+      });
+
+      prevButton.disabled = currentIndex === 0;
+      nextButton.disabled = currentIndex === panels.length - 1;
+    };
 
     tabs.forEach((tab, index) => {
-      const isActive = index === currentIndex;
-      tab.classList.toggle("is-active", isActive);
-      tab.setAttribute("aria-pressed", isActive ? "true" : "false");
+      tab.addEventListener("click", () => setActivePanel(index));
     });
 
-    prevButton.disabled = currentIndex === 0;
-    nextButton.disabled = currentIndex === panels.length - 1;
+    prevButton.addEventListener("click", () => {
+      if (currentIndex > 0) setActivePanel(currentIndex - 1);
+    });
+
+    nextButton.addEventListener("click", () => {
+      if (currentIndex < panels.length - 1) setActivePanel(currentIndex + 1);
+    });
+
+    section.classList.add("pub-pager-ready");
+    setActivePanel(0);
   };
 
-  tabs.forEach((tab, index) => {
-    tab.addEventListener("click", () => setActivePanel(index));
-  });
+  const initNewsPager = () => {
+    const newsList = document.querySelector(".news-list");
+    if (!newsList) return;
 
-  prevButton.addEventListener("click", () => {
-    if (currentIndex > 0) setActivePanel(currentIndex - 1);
-  });
+    const newsItems = Array.from(newsList.querySelectorAll("li"));
+    const pageSize = 7;
+    const totalPages = Math.ceil(newsItems.length / pageSize);
 
-  nextButton.addEventListener("click", () => {
-    if (currentIndex < panels.length - 1) setActivePanel(currentIndex + 1);
-  });
+    if (totalPages <= 1) return;
 
-  section.classList.add("pub-pager-ready");
-  setActivePanel(0);
+    let currentPage = 0;
+
+    const pager = document.createElement("div");
+    pager.className = "news-pager";
+
+    const prevButton = document.createElement("button");
+    prevButton.type = "button";
+    prevButton.className = "news-page-button";
+    prevButton.innerHTML = '<i class="fas fa-chevron-left" aria-hidden="true"></i><span>Prev</span>';
+
+    const pageTabs = document.createElement("div");
+    pageTabs.className = "news-page-tabs";
+
+    const nextButton = document.createElement("button");
+    nextButton.type = "button";
+    nextButton.className = "news-page-button";
+    nextButton.innerHTML = '<span>Next</span><i class="fas fa-chevron-right" aria-hidden="true"></i>';
+
+    const pageButtons = Array.from({ length: totalPages }, (_, index) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "news-page-tab";
+      button.textContent = String(index + 1);
+      button.addEventListener("click", () => setActivePage(index));
+      pageTabs.appendChild(button);
+      return button;
+    });
+
+    pager.appendChild(prevButton);
+    pager.appendChild(pageTabs);
+    pager.appendChild(nextButton);
+    newsList.insertAdjacentElement("afterend", pager);
+
+    const setActivePage = (nextPage) => {
+      currentPage = nextPage;
+
+      newsItems.forEach((item, index) => {
+        const start = currentPage * pageSize;
+        const end = start + pageSize;
+        item.hidden = index < start || index >= end;
+      });
+
+      pageButtons.forEach((button, index) => {
+        const isActive = index === currentPage;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+      });
+
+      prevButton.disabled = currentPage === 0;
+      nextButton.disabled = currentPage === totalPages - 1;
+    };
+
+    prevButton.addEventListener("click", () => {
+      if (currentPage > 0) setActivePage(currentPage - 1);
+    });
+
+    nextButton.addEventListener("click", () => {
+      if (currentPage < totalPages - 1) setActivePage(currentPage + 1);
+    });
+
+    setActivePage(0);
+  };
+
+  initPublicationsPager();
+  initNewsPager();
 });
 </script>
