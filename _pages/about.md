@@ -424,7 +424,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!newsList) return;
 
     const newsItems = Array.from(newsList.querySelectorAll("li"));
-    const pageSize = 6;
+    const pageSize = 12;
     const totalPages = Math.ceil(newsItems.length / pageSize);
 
     if (totalPages <= 1) return;
