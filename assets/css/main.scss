@@ -364,11 +364,7 @@ h1:before, .anchor:before {
 }
 
 .page__content > .anchor:not(#about-me) + * {
-    margin-top: 4.3rem;
-}
-
-.page__content > .anchor#publications + * {
-    margin-top: 6.8rem;
+    margin-top: 6rem;
 }
 
 .badge {
@@ -402,7 +398,7 @@ h1:before, .anchor:before {
     justify-content: flex-start;
     gap: .65rem;
     flex-wrap: wrap;
-    margin: 1rem 0 7rem;
+    margin: 1rem 0 6rem;
 }
 
 .news-page-tabs {
