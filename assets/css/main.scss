@@ -364,7 +364,7 @@ h1:before, .anchor:before {
 }
 
 .page__content > .anchor:not(#about-me) + * {
-    margin-top: 6rem;
+    margin-top: 0;
 }
 
 .badge {
@@ -383,7 +383,7 @@ h1:before, .anchor:before {
 }
 
 .news-list {
-    margin-bottom: 2.2rem;
+    margin-bottom: 6rem;
 
     a {
         text-decoration: underline;
@@ -392,13 +392,17 @@ h1:before, .anchor:before {
     }
 }
 
+.news-list.news-list-paged {
+    margin-bottom: 1rem;
+}
+
 .news-pager {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: .65rem;
     flex-wrap: wrap;
-    margin: 1rem 0 6rem;
+    margin: 0 0 6rem;
 }
 
 .news-page-tabs {
@@ -574,6 +578,7 @@ h1:before, .anchor:before {
 }
 
 .publications-section {
+    margin-bottom: 6rem;
     --section-accent: #2563eb;
     --section-accent-dark: #1d4ed8;
     --section-accent-soft: rgba(37, 99, 235, 0.14);
@@ -616,6 +621,7 @@ h1:before, .anchor:before {
 }
 
 .experience-section {
+    margin-bottom: 6rem;
     --section-accent: #059669;
     --section-accent-dark: #047857;
     --section-accent-strong: rgba(5, 150, 105, 0.75);
@@ -629,6 +635,7 @@ h1:before, .anchor:before {
 }
 
 .education-section {
+    margin-bottom: 6rem;
     --section-accent: #6366f1;
     --section-accent-dark: #4f46e5;
     --section-accent-strong: rgba(99, 102, 241, 0.75);
@@ -674,6 +681,7 @@ h1:before, .anchor:before {
 }
 
 .projects-section {
+    margin-bottom: 6rem;
     --section-accent: #94a3b8;
     --section-accent-dark: #64748b;
     --section-accent-soft: rgba(148, 163, 184, 0.14);
@@ -705,12 +713,14 @@ h1:before, .anchor:before {
 }
 
 .honors-section {
+    margin-bottom: 6rem;
     --section-accent: #d97706;
     --section-accent-dark: #b45309;
     --section-accent-line: rgba(217, 119, 6, 0.18);
 }
 
 .service-section {
+    margin-bottom: 6rem;
     --section-accent: #4f46e5;
     --section-accent-dark: #4338ca;
     --section-accent-line: rgba(79, 70, 229, 0.18);

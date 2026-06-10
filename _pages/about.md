@@ -461,6 +461,7 @@ document.addEventListener("DOMContentLoaded", function () {
     pager.appendChild(pageTabs);
     pager.appendChild(nextButton);
     newsList.insertAdjacentElement("afterend", pager);
+    newsList.classList.add("news-list-paged");
 
     const setActivePage = (nextPage) => {
       currentPage = nextPage;
