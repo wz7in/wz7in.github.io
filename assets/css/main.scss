@@ -241,7 +241,8 @@ $card-shadow: rgba(15, 118, 110, 0.16);
     }
 }
 
-.experience-list {
+.experience-list,
+.education-list {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -250,29 +251,32 @@ $card-shadow: rgba(15, 118, 110, 0.16);
     padding-left: 1.6rem;
 }
 
-.experience-list::before {
+.experience-list::before,
+.education-list::before {
     content: "";
     position: absolute;
     left: .42rem;
     top: .75rem;
     bottom: .9rem;
     width: 2px;
-    background: linear-gradient(180deg, rgba(5, 150, 105, 0.75), rgba(5, 150, 105, 0.18));
+    background: linear-gradient(180deg, var(--section-accent-strong, rgba(5, 150, 105, 0.75)), var(--section-accent-line, rgba(5, 150, 105, 0.18)));
 }
 
-.experience-list::after {
+.experience-list::after,
+.education-list::after {
     content: "";
     position: absolute;
     left: .14rem;
     top: .35rem;
     width: .58rem;
     height: .58rem;
-    border-top: 2px solid rgba(5, 150, 105, 0.82);
-    border-right: 2px solid rgba(5, 150, 105, 0.82);
+    border-top: 2px solid var(--section-accent-arrow, rgba(5, 150, 105, 0.82));
+    border-right: 2px solid var(--section-accent-arrow, rgba(5, 150, 105, 0.82));
     transform: rotate(-45deg);
 }
 
-.experience-item {
+.experience-item,
+.education-item {
     position: relative;
     padding: 1rem 1.05rem 1rem 1.15rem;
     border: 1px solid var(--section-accent-soft, rgba(15, 118, 110, 0.14));
@@ -282,7 +286,8 @@ $card-shadow: rgba(15, 118, 110, 0.16);
     transition: transform .18s ease, box-shadow .18s ease;
 }
 
-.experience-item::before {
+.experience-item::before,
+.education-item::before {
     content: "";
     position: absolute;
     left: -1.46rem;
@@ -295,16 +300,19 @@ $card-shadow: rgba(15, 118, 110, 0.16);
     box-shadow: 0 0 0 2px var(--section-accent-soft, rgba(15, 118, 110, 0.16));
 }
 
-.experience-item:hover {
+.experience-item:hover,
+.education-item:hover {
     transform: translateY(-1px);
     box-shadow: 0 16px 30px var(--section-shadow, rgba(15, 118, 110, 0.12));
 }
 
-.experience-item p {
+.experience-item p,
+.education-item p {
     margin: .45rem 0 0;
 }
 
-.experience-item-head {
+.experience-item-head,
+.education-item-head {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -612,12 +620,27 @@ h1:before, .anchor:before {
 .experience-section {
     --section-accent: #059669;
     --section-accent-dark: #047857;
+    --section-accent-strong: rgba(5, 150, 105, 0.75);
+    --section-accent-arrow: rgba(5, 150, 105, 0.82);
     --section-accent-soft: rgba(5, 150, 105, 0.14);
     --section-accent-line: rgba(5, 150, 105, 0.18);
     --section-shadow: rgba(5, 150, 105, 0.14);
     --section-surface-strong: rgba(5, 150, 105, 0.05);
     --section-surface-soft: rgba(5, 150, 105, 0.015);
     --section-surface-shadow: rgba(5, 150, 105, 0.07);
+}
+
+.education-section {
+    --section-accent: #6366f1;
+    --section-accent-dark: #4f46e5;
+    --section-accent-strong: rgba(99, 102, 241, 0.75);
+    --section-accent-arrow: rgba(99, 102, 241, 0.82);
+    --section-accent-soft: rgba(99, 102, 241, 0.14);
+    --section-accent-line: rgba(99, 102, 241, 0.18);
+    --section-shadow: rgba(99, 102, 241, 0.13);
+    --section-surface-strong: rgba(99, 102, 241, 0.05);
+    --section-surface-soft: rgba(99, 102, 241, 0.015);
+    --section-surface-shadow: rgba(99, 102, 241, 0.07);
 }
 
 .projects-section {

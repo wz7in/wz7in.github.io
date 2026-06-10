@@ -240,14 +240,6 @@ InternVLA-M1 Team
 </div>
 </div>
 
-<span class='anchor' id='education'></span>
-
-# <i class="fas fa-graduation-cap" style="color:#0f766e;"></i> Education
-
-- *2023.09 - Present*, Ph.D. student, School of Artificial Intelligence, Beihang University
-- *2021.09 - 2023.06*, M.Eng., School of Software, Beihang University
-- *2017.09 - 2021.06*, B.Eng., School of Software, Beihang University
-
 <span class='anchor' id='experience'></span>
 
 # <i class="fas fa-briefcase" style="color:#059669;"></i> Research and Industry Experience
@@ -284,6 +276,38 @@ InternVLA-M1 Team
       <span>*Algorithm Intern, 2021.05 - 2022.05*</span>
     </div>
     <p>Worked on liveness detection algorithms, covering data collection, model iteration, and practical system improvement for real-world deployment.</p>
+  </div>
+</div>
+</div>
+
+<span class='anchor' id='education'></span>
+
+# <i class="fas fa-graduation-cap" style="color:#6366f1;"></i> Education
+
+<div class="education-section">
+<div class="education-list">
+  <div class="education-item">
+    <div class="education-item-head">
+      <strong>Beihang University</strong>
+      <span>*2023.09 - Present*</span>
+    </div>
+    <p>Ph.D. student, School of Artificial Intelligence.</p>
+  </div>
+
+  <div class="education-item">
+    <div class="education-item-head">
+      <strong>Beihang University</strong>
+      <span>*2021.09 - 2023.06*</span>
+    </div>
+    <p>M.Eng., School of Software.</p>
+  </div>
+
+  <div class="education-item">
+    <div class="education-item-head">
+      <strong>Beihang University</strong>
+      <span>*2017.09 - 2021.06*</span>
+    </div>
+    <p>B.Eng., School of Software.</p>
   </div>
 </div>
 </div>
