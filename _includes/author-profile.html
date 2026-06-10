@@ -25,12 +25,6 @@
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
-      {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
-      {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
-      {% endif %}
       {% if author.wechat %}
         <li class="author-wechat-row">
           <button type="button" class="author-wechat-trigger" aria-label="Show WeChat ID">
@@ -38,6 +32,9 @@
           </button>
           <span class="author-wechat-id">{{ author.wechat }}</span>
         </li>
+      {% endif %}
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -128,12 +125,6 @@
 {% endif %}
     </ul>
       <div class="author__urls_sm">
-      {% if author.uri %}
-        <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
-      {% endif %}
       {% if author.wechat %}
         <span class="author-wechat-inline">
           <button type="button" class="author-wechat-trigger author-wechat-icon" aria-label="Show WeChat ID">
@@ -141,6 +132,9 @@
           </button>
           <span class="author-wechat-id">{{ author.wechat }}</span>
         </span>
+      {% endif %}
+      {% if author.email %}
+        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>

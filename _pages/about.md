@@ -17,13 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang University, and a member of [CoLab](https://colalab.net/), advised by [Prof. Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=en), with an expected graduation date of June 2027. I am also a research intern at Shanghai AI Laboratory, where I am supervised by [Prof. Jiangmiao Pang](https://oceanpang.github.io/) and [Prof. Jifeng Dai](https://jifengdai.org/). Prior to my Ph.D., I spent two years in the master's program at Beihang University under the supervision of [Prof. Lv Sheng](https://lucassheng.github.io/), and I received my B.Eng. from Beihang University.
-
-My research interests lie in Robotics and Embodied AI, particularly Vision-Language-Action (VLA) models and World-Action-Model (WAM). I also have research interests and experience in multimodal large language models and reinforcement learning.
+I am currently a Ph.D. student at the School of Artificial Intelligence, Beihang University, and a member of [CoLab](https://colalab.net/), advised by [Prof. Si Liu](https://scholar.google.com/citations?user=-QtVtNEAAAAJ&hl=en), with an expected graduation date of June 2027. I am also a research intern at Shanghai AI Laboratory, where I am supervised by [Prof. Jiangmiao Pang](https://oceanpang.github.io/) and [Prof. Jifeng Dai](https://jifengdai.org/). Prior to my Ph.D., I spent two years in the master's program at Beihang University under the supervision of [Prof. Lv Sheng](https://lucassheng.github.io/), and I received my B.Eng. from Beihang University. My research interests lie in ``Robotics`` and ``Embodied AI``, I also have research interests and experience in ``multimodal large language models`` and ``reinforcement learning``.
 
 <div class="job-seeking-callout">
   <span class="job-seeking-label">Open to Opportunities</span>
-  I am currently seeking <strong>2027 new-graduate full-time opportunities</strong> in <em>embodied AI</em> and <em>MLLM</em>. Feel free to reach out via email or WeChat.
+  I am currently seeking <strong>2027 new-graduate full-time opportunities</strong> in <em>embodied AI</em> and <em>MLLM</em>. Feel free to reach me out via email or WeChat.
 </div>
 
 <span class='anchor' id='news'></span>
